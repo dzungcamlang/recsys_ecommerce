@@ -80,14 +80,16 @@
                   </strong>
                 </h5>
 
-                <h4 class="font-weight-bold blue-text">
-                  <strong>$
+                <h4 class="lead">
                   {% if item.discount_price %}
-                  {{ item.discount_price }}
+                    <span class="mr-1t">
+                      <del>${{ item.price }}</del>
+                    </span>
+                    <span class="font-weight-bold blue-text">${{ item.discount_price }}</span>
                   {% else %}
-                  {{ item.price }}
+                    <span class="font-weight-bold blue-text">${{ item.price }}</span>
                   {% endif %}
-                  </strong>
+
                 </h4>
 
               </div>

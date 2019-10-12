@@ -18,14 +18,12 @@ class OrderAdmin(admin.ModelAdmin):
                     'refund_requested',
                     'refund_granted',
                     'shipping_address',
-                    'billing_address',
                     'payment',
                     'coupon'
                     ]
     list_display_links = [
         'user',
         'shipping_address',
-        'billing_address',
         'payment',
         'coupon'
     ]
@@ -35,7 +33,7 @@ class OrderAdmin(admin.ModelAdmin):
                    'refund_requested',
                    'refund_granted']
     search_fields = [
-        'user__username',
+        'user_username',
         'ref_code'
     ]
     actions = [make_refund_accepted]
@@ -47,7 +45,6 @@ class AddressAdmin(admin.ModelAdmin):
         'street_address',
         'apartment_address',
         'country',
-        'zip',
         'address_type',
         'default'
     ]
