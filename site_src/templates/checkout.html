@@ -28,7 +28,7 @@
 
                 <div class="row">
                   <div class="col-lg-4 col-md-12 mb-4">
-                    <label for="country">Country</label>
+                    <label for="shipping_country">Country</label>
                     {{ form.shipping_country }}
                     <div class="invalid-feedback">
                       Please select a valid country.
@@ -82,25 +82,31 @@
 
 {% block extra_scripts %}
 <script>
+
+
 var hideable_shipping_form = $('.hideable_shipping_form');
-var hideable_billing_form = $('.hideable_billing_form');
 
 var use_default_shipping = document.querySelector("input[name=use_default_shipping]");
-var use_default_billing = document.querySelector("input[name=use_default_billing]");
+
+if (use_default_shipping.checked) {
+    hideable_shipping_form.hide();
+    document.querySelector('#id_shipping_country').required = false;
+    document.querySelector('#shipping_address').required = false;
+} else {
+    hideable_shipping_form.show();
+    document.querySelector('#id_shipping_country').required = true;
+    document.querySelector('#shipping_address').required = true;
+}
 
 use_default_shipping.addEventListener('change', function() {
   if (this.checked) {
     hideable_shipping_form.hide();
+    document.querySelector('#id_shipping_country').required = false;
+    document.querySelector('#shipping_address').required = false;
   } else {
     hideable_shipping_form.show();
-  }
-})
-
-use_default_billing.addEventListener('change', function() {
-  if (this.checked) {
-    hideable_billing_form.hide();
-  } else {
-    hideable_billing_form.show();
+    document.querySelector('#id_shipping_country').required = true;
+    document.querySelector('#shipping_address').required = true;
   }
 })
 
