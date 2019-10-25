@@ -10,6 +10,7 @@ from django.utils import timezone
 from .forms import CheckoutForm, CouponForm, RefundForm, PaymentForm
 from .models import Item, OrderItem, Order, Address, Payment, Coupon, Refund, UserProfile
 
+import os
 import random
 import string
 import stripe
@@ -286,6 +287,10 @@ class HomeView(ListView):
         # Add in a QuerySet of all the books
         context['head_title'] = "Django E-Commerce Website with RecSys embedded"
         return context
+
+    def get_recommend_list(self):
+        rec_list = list(range(10))
+        return rec_list
 
 
 class OrderSummaryView(LoginRequiredMixin, View):

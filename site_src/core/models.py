@@ -23,7 +23,7 @@ class Item(models.Model):
     discount_price = models.FloatField(blank=True, null=True)
     slug = models.SlugField()
     description = models.TextField(null=True)
-    image = models.ImageField(default="noimage.png", null=True)
+    image = models.ImageField(default="noimage.png")
 
     def __str__(self):
         return self.title
