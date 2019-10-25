@@ -3,10 +3,10 @@ from django_countries.fields import CountryField
 from django_countries.widgets import CountrySelectWidget
 
 
-PAYMENT_CHOICES = (
-    ('S', 'Stripe'),
-    ('P', 'PayPal')
-)
+# PAYMENT_CHOICES = (
+#     ('S', 'Stripe'),
+#     ('P', 'PayPal')
+# )
 
 
 class CheckoutForm(forms.Form):
@@ -21,8 +21,8 @@ class CheckoutForm(forms.Form):
     set_default_shipping = forms.BooleanField(required=False)
     use_default_shipping = forms.BooleanField(required=False)
 
-    payment_option = forms.ChoiceField(
-        widget=forms.RadioSelect, choices=PAYMENT_CHOICES)
+    # payment_option = forms.ChoiceField(
+    #     widget=forms.RadioSelect, choices=PAYMENT_CHOICES)
 
 
 class CouponForm(forms.Form):
@@ -40,9 +40,10 @@ class RefundForm(forms.Form):
         'rows': 4
     }))
     email = forms.EmailField()
-
-
+#
+#
 class PaymentForm(forms.Form):
-    stripeToken = forms.CharField(required=False)
-    save = forms.BooleanField(required=False)
-    use_default = forms.BooleanField(required=False)
+    pass
+#     stripeToken = forms.CharField(required=False)
+#     save = forms.BooleanField(required=False)
+#     use_default = forms.BooleanField(required=False)

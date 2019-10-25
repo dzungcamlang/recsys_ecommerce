@@ -5,49 +5,49 @@
     <div class="container">
 
       <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark mdb-color lighten-3 mt-3 mb-5">
+      <!--<nav class="navbar navbar-expand-lg navbar-dark mdb-color lighten-3 mt-3 mb-5">-->
 
-        <!-- Navbar brand -->
-        <span class="navbar-brand">Categories:</span>
+        <!--&lt;!&ndash; Navbar brand &ndash;&gt;-->
+        <!--<span class="navbar-brand">Categories:</span>-->
 
-        <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <!--&lt;!&ndash; Collapse button &ndash;&gt;-->
+        <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"-->
+          <!--aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">-->
+          <!--<span class="navbar-toggler-icon"></span>-->
+        <!--</button>-->
 
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
+        <!--&lt;!&ndash; Collapsible content &ndash;&gt;-->
+        <!--<div class="collapse navbar-collapse" id="basicExampleNav">-->
 
-          <!-- Links -->
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">All
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shirts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sport wears</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Outwears</a>
-            </li>
+          <!--&lt;!&ndash; Links &ndash;&gt;-->
+          <!--<ul class="navbar-nav mr-auto">-->
+            <!--<li class="nav-item active">-->
+              <!--<a class="nav-link" href="#">All-->
+                <!--<span class="sr-only">(current)</span>-->
+              <!--</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+              <!--<a class="nav-link" href="#">Shirts</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+              <!--<a class="nav-link" href="#">Sport wears</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+              <!--<a class="nav-link" href="#">Outwears</a>-->
+            <!--</li>-->
 
-          </ul>
-          <!-- Links -->
+          <!--</ul>-->
+          <!--&lt;!&ndash; Links &ndash;&gt;-->
 
-          <form class="form-inline">
-            <div class="md-form my-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            </div>
-          </form>
-        </div>
-        <!-- Collapsible content -->
+          <!--<form class="form-inline">-->
+            <!--<div class="md-form my-0">-->
+              <!--<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">-->
+            <!--</div>-->
+          <!--</form>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; Collapsible content &ndash;&gt;-->
 
-      </nav>
+      <!--</nav>-->
       <!--/.Navbar-->
 
       <!--Section: Products v.3-->
@@ -75,7 +75,6 @@
                 <h5>
                   <strong>
                     <a href="{{ item.get_absolute_url }}" class="dark-grey-text">{{ item.title }}
-                      <span class="badge badge-pill {{ item.get_label_display }}-color">NEW</span>
                     </a>
                   </strong>
                 </h5>
@@ -111,9 +110,13 @@
 
           {% if page_obj.has_previous %}
           <li class="page-item">
-            <a class="page-link" href="?page={{ page_obj.previous_page_number }}" aria-label="Previous">
+            <a class="page-link" href="?page=1" aria-label="Previous">
               <span aria-hidden="true">&laquo;</span>
-              <span class="sr-only">Previous</span>
+              <span class="sr-only">First</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="?page={{ page_obj.previous_page_number }}">{{ page_obj.previous_page_number }}
             </a>
           </li>
           {% endif %}
@@ -126,9 +129,13 @@
 
           {% if page_obj.has_next %}
           <li class="page-item">
-            <a class="page-link" href="?page={{ page_obj.next_page_number }}" aria-label="Next">
+            <a class="page-link" href="?page={{ page_obj.next_page_number}}">{{ page_obj.next_page_number }}
+            </a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}" aria-label="Next">
               <span aria-hidden="true">&raquo;</span>
-              <span class="sr-only">Next</span>
+              <span class="sr-only">Last</span>
             </a>
           </li>
           {% endif %}

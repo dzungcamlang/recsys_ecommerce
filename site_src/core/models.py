@@ -17,12 +17,13 @@ class UserProfile(models.Model):
 
 
 class Item(models.Model):
-    title = models.CharField(max_length=100)
+    code = models.CharField(max_length=100)
+    title = models.CharField(max_length=200)
     price = models.FloatField()
     discount_price = models.FloatField(blank=True, null=True)
     slug = models.SlugField()
-    description = models.TextField()
-    image = models.ImageField()
+    description = models.TextField(null=True)
+    image = models.ImageField(default="noimage.png", null=True)
 
     def __str__(self):
         return self.title
@@ -78,10 +79,10 @@ class Order(models.Model):
     ordered = models.BooleanField(default=False)
     shipping_address = models.ForeignKey(
         'Address', related_name='shipping_address', on_delete=models.SET_NULL, blank=True, null=True)
-    payment = models.ForeignKey(
-        'Payment', on_delete=models.SET_NULL, blank=True, null=True)
-    coupon = models.ForeignKey(
-        'Coupon', on_delete=models.SET_NULL, blank=True, null=True)
+    # payment = models.ForeignKey(
+    #     'Payment', on_delete=models.SET_NULL, blank=True, null=True)
+    # coupon = models.ForeignKey(
+    #     'Coupon', on_delete=models.SET_NULL, blank=True, null=True)
     being_delivered = models.BooleanField(default=False)
     received = models.BooleanField(default=False)
     refund_requested = models.BooleanField(default=False)
@@ -105,8 +106,6 @@ class Order(models.Model):
         total = 0
         for order_item in self.items.all():
             total += order_item.get_final_price()
-        if self.coupon:
-            total -= self.coupon.amount
         return total
 
 

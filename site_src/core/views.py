@@ -115,14 +115,18 @@ class CheckoutView(View):
 
                 payment_option = form.cleaned_data.get('payment_option')
 
-                if payment_option == 'S':
-                    return redirect('core:payment', payment_option='stripe')
-                elif payment_option == 'P':
-                    return redirect('core:payment', payment_option='paypal')
-                else:
-                    messages.warning(
-                        self.request, "Invalid payment option selected")
-                    return redirect('core:checkout')
+                order_items = order.items.all()
+                order_items.update(ordered=True)
+                for item in order_items:
+                    item.save()
+
+                order.ordered = True
+                order.ref_code = create_ref_code()
+                order.save()
+
+                messages.success(self.request, "Your order was successful!")
+                return redirect("/")
+
             else:
                 print(form.errors)
                 messages.warning(self.request, "Invalid Form")
