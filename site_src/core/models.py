@@ -6,12 +6,6 @@ from django.shortcuts import reverse
 from django_countries.fields import CountryField
 from django.contrib.auth.models import User
 
-event_types = (
-    ('V', 'view'),
-    ('A', 'addtocart'),
-    ('T', 'transaction')
-)
-
 
 class UserProfile(models.Model):
     user = models.OneToOneField(
@@ -56,7 +50,6 @@ class Events(models.Model):
     user = models.ForeignKey(User,
                              on_delete=models.CASCADE)
     item = models.ForeignKey(Item, on_delete=models.CASCADE)
-    event = models.CharField(choices=event_types, max_length=1)
 
 
 class OrderItem(models.Model):

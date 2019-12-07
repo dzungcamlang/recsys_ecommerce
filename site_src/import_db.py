@@ -9,53 +9,53 @@ from django.utils.text import slugify
 # exec(open('import_db.py').read())
 
 
-# CSV_PATH = 'D:/workspace/RecSys_ecommerce/recsys/data/product_db.csv'
-#
-# contSuccess = 0
-# # Remove all data from Table
-# Item.objects.all().delete()
-#
-# db = pd.read_csv(CSV_PATH, sep=";")
-# print('Loading ITEM data...')
-# for idx, row in db.iterrows():
-#     contSuccess += 1
-#     Item.objects.create(
-#         id=row[0],
-#         code=row[0],
-#         title=row[1],
-#         price=float(row[2]),
-#         slug=slugify(row[1]),
-#         description=row[1])
-#
-# print(f'{str(contSuccess)} inserted successfully! ')
+CSV_PATH = 'F:/workspace/RecSys_ecommerce/recsys/data/product_db.csv'
 
-# CSV_PATH = 'D:/workspace/RecSys_ecommerce/recsys/data/user_db.csv'
-#
-# contSuccess = 0
-# # Remove all data from Table
-# User.objects.all().delete()
-#
-# db = pd.read_csv(CSV_PATH, sep=";")
-# print('Loading USER data...')
-# for idx, row in db.iterrows():
-#     contSuccess += 1
-#     # if contSuccess > 265965:
-#     #     break
-#     User.objects.create(
-#         password="pbkdf2_sha256$150000$SrfB9cyFbG7m$rNKerOPdIYh6Y3eql+1CK7bvwe5YP40LG+2upQY3KD0=",
-#         id=row[0],
-#         username="user_{}".format(row[0]),
-#         email="mail_{}@gmail.com".format(row[0]))
-#
-# print(f'{str(contSuccess)} inserted successfully! ')
+contSuccess = 0
+# Remove all data from Table
+Item.objects.all().delete()
 
-CSV_PATH = 'D:/workspace/RecSys_ecommerce/recsys/data/fullevent_db.csv'
+db = pd.read_csv(CSV_PATH, sep=";", header=None)
+print('Loading ITEM data...')
+for idx, row in db.iterrows():
+    contSuccess += 1
+    Item.objects.create(
+        id=row[0],
+        code=row[1],
+        title=row[2],
+        price=float(row[4]),
+        slug=slugify(row[2]),
+        description=row[3])
+
+print(f'{str(contSuccess)} inserted successfully! ')
+
+CSV_PATH = 'F:/workspace/RecSys_ecommerce/recsys/data/user_db.csv'
+
+contSuccess = 0
+# Remove all data from Table
+User.objects.all().delete()
+
+db = pd.read_csv(CSV_PATH, sep=";", header=None)
+print('Loading USER data...')
+for idx, row in db.iterrows():
+    contSuccess += 1
+    # if contSuccess > 265965:
+    #     break
+    User.objects.create(
+        password="pbkdf2_sha256$150000$SrfB9cyFbG7m$rNKerOPdIYh6Y3eql+1CK7bvwe5YP40LG+2upQY3KD0=",
+        id=row[0],
+        username=row[1],
+        email="mail_{}@gmail.com".format(row[1]))
+
+print(f'{str(contSuccess)} inserted successfully! ')
+
+CSV_PATH = 'F:/workspace/RecSys_ecommerce/recsys/data/event_db.csv'
 
 contSuccess = 0
 # Remove all data from Table
 Events.objects.all().delete()
 
-db = pd.read_csv(CSV_PATH, sep=";")
+db = pd.read_csv(CSV_PATH, sep=";", header=None)
 print('Loading EVENT data...')
 for idx, row in db.iterrows():
     # try:
@@ -72,9 +72,8 @@ for idx, row in db.iterrows():
 
         Events.objects.create(
             time=row[0],
-            event=row[1],
-            user_id=row[2],
-            item_id=row[3])
+            user_id=row[1],
+            item_id=row[2])
     except Exception as e:
         print(e)
         print(row[2])
