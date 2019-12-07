@@ -1,24 +1,94 @@
 import csv
 import pandas as pd
-from core.models import Item, UserProfile
+from core.models import Item, UserProfile, Events
+from django.contrib.auth.models import User
 from django.utils.text import slugify
 
-CSV_PATH = 'D:/workspace/RecSys_ecommerce/recsys/data/product_db.csv'
+
+# python manage.py shell
+# exec(open('import_db.py').read())
+
+
+# CSV_PATH = 'D:/workspace/RecSys_ecommerce/recsys/data/product_db.csv'
+#
+# contSuccess = 0
+# # Remove all data from Table
+# Item.objects.all().delete()
+#
+# db = pd.read_csv(CSV_PATH, sep=";")
+# print('Loading ITEM data...')
+# for idx, row in db.iterrows():
+#     contSuccess += 1
+#     Item.objects.create(
+#         id=row[0],
+#         code=row[0],
+#         title=row[1],
+#         price=float(row[2]),
+#         slug=slugify(row[1]),
+#         description=row[1])
+#
+# print(f'{str(contSuccess)} inserted successfully! ')
+
+# CSV_PATH = 'D:/workspace/RecSys_ecommerce/recsys/data/user_db.csv'
+#
+# contSuccess = 0
+# # Remove all data from Table
+# User.objects.all().delete()
+#
+# db = pd.read_csv(CSV_PATH, sep=";")
+# print('Loading USER data...')
+# for idx, row in db.iterrows():
+#     contSuccess += 1
+#     # if contSuccess > 265965:
+#     #     break
+#     User.objects.create(
+#         password="pbkdf2_sha256$150000$SrfB9cyFbG7m$rNKerOPdIYh6Y3eql+1CK7bvwe5YP40LG+2upQY3KD0=",
+#         id=row[0],
+#         username="user_{}".format(row[0]),
+#         email="mail_{}@gmail.com".format(row[0]))
+#
+# print(f'{str(contSuccess)} inserted successfully! ')
+
+CSV_PATH = 'D:/workspace/RecSys_ecommerce/recsys/data/fullevent_db.csv'
 
 contSuccess = 0
 # Remove all data from Table
-Item.objects.all().delete()
+Events.objects.all().delete()
 
 db = pd.read_csv(CSV_PATH, sep=";")
-print('Loading...')
+print('Loading EVENT data...')
 for idx, row in db.iterrows():
-    contSuccess += 1
-    Item.objects.create(
-        id=contSuccess,
-        code=row[0],
-        title=row[1],
-        price=float(row[2]),
-        slug=slugify(row[1]),
-        description=row[1])
+    # try:
+    #     user = User.objects.get(id=row[2])
+    #     item = Item.objects.get(id=row[3])
+    # except Exception as e:
+    #     print(e)
+    #     print(row[2])
+    #     print(row[3])
+    #     print("fail to query")
+    #     continue
+    try:
+        contSuccess += 1
+
+        Events.objects.create(
+            time=row[0],
+            event=row[1],
+            user_id=row[2],
+            item_id=row[3])
+    except Exception as e:
+        print(e)
+        print(row[2])
+        print(row[3])
+        # print(user)
+        # print(item)
+        print("==================================================")
+
 
 print(f'{str(contSuccess)} inserted successfully! ')
+
+# User.objects.create(
+#         password="pbkdf2_sha256$150000$SrfB9cyFbG7m$rNKerOPdIYh6Y3eql+1CK7bvwe5YP40LG+2upQY3KD0=",
+#         is_superuser=True,
+#         is_staff=True,
+#         username="trhgnhat",
+#         email="trhgnhat@gmail.com")

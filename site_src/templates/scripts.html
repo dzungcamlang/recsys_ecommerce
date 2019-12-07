@@ -8,8 +8,24 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="{% static 'js/mdb.min.js' %}"></script>
 <!-- Initializations -->
+<script type="text/javascript" src="{% static 'js/owl.carousel.min.js' %}"></script>
 <script type="text/javascript">
   // Animations initialization
   new WOW().init();
-
+  $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+    }
+  })
 </script>
