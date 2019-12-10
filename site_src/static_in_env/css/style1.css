@@ -272,28 +272,48 @@
 #products .product-price div{
     margin-bottom: 0;
 }
-.add-to-card{
-    margin-left: 10px;
-    display: inline-block;
-    width: 50%;
-}
+/*.add-to-card{*/
+/*    margin-left: 10px;*/
+/*    display: inline-block;*/
+/*    width: 50%;*/
+/*}*/
 .add-to-card a{
-    display: block;
-    text-align: center;
     color: #fff;
     background: #333333;
     border: 1px solid #333333;
-    padding: 11px 35px;
+    padding: 15px 35px;
     font-size: 18px;
     transition: .3s ease-in;
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 3px;
+    display: block;
+    text-align: center;
 }
 .add-to-card a:hover,
 .add-to-card a:focus,
 .add-to-card a:active{
     color: #333333;
+    background: transparent;
+}
+
+.remove-product-from-cart a{
+    color: #fff;
+    background: #C61932;
+    border: 1px solid #C61932;
+    padding: 15px 35px;
+    font-size: 18px;
+    transition: .3s ease-in;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    display: block;
+    text-align: center;
+}
+.remove-product-from-cart a:hover,
+.remove-product-from-cart a:focus,
+.remove-product-from-cart a:active{
+    color: #C61932;
     background: transparent;
 }
 

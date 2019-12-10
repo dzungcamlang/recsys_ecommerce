@@ -66,4 +66,19 @@
     }
   });
   $('#products .owl-theme .owl-nav').removeClass('disabled');
+
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+  var page_num = getParameterByName('page');
+  if (page_num != null) {
+      document.getElementById("product-list").scrollIntoView(true);
+  }
+  // alert(page_num)
 </script>

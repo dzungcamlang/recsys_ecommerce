@@ -5,48 +5,50 @@
 <main id="products" class="mt-5 pt-4">
   <div class="breadcrumb-wrapper">
     <div class="container" style="padding: 4em 4em 4em 0;">
-      <h1 class="product-name-header">Side Ottoman</h1>
-      <div class="breadcrumb-text">Home / Side Ottoman</div>
+      <h1 class="product-name-header">{{ object.title }}</h1>
+      <div class="breadcrumb-text">Home / {{ object.title }}</div>
     </div>
   </div>
     <div class="container">
         <div class="row" style="padding: 4em 0 0;">
             <div class="col-md-6 product-detail-img">
-                <img src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/1_1024x1024.jpg?v=1551171524" alt="">
+                <img src="{{ object.image.url }}" alt="">
             </div>
             <div class="col-md-6 product-detail-description">
                 <div class="">
-                    <div class="product-stars">
-                        <div class="product-ratting">
-                          <span class="spr-badge" id="spr_badge_1951669354560"><span
-                                  class="spr-starrating spr-badge-starrating"><i class="spr-icon spr-icon-star"></i><i
-                                  class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i
-                                  class="spr-icon spr-icon-star"></i><i
-                                  class="spr-icon spr-icon-star-half-alt"></i></span><span
-                                  class="spr-badge-caption">2 reviews</span>
-                          </span>
-                        </div>
-                    </div>
-                    <div class="product-name">Side Ottoman</div>
+                    <div class="product-name">{{ object.title }}</div>
                     <div class="product-price">
-                      <div class="product-price-old">$130</div>
-                      <div class="product-price-new">$110</div>
+                        {% if object.discount_price %}
+                            <div class="product-price-old">${{ object.price }}</div>
+                            <div class="product-price-new blue-text">${{ object.discount_price }}</div>
+                        {% else %}
+                            <div class="product-price-new blue-text">${{ object.price }}</div>
+                        {% endif %}
                     </div>
                   <div class="product-description">
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                    {{ object.description }}
                   </div>
-                  <div class="product-quantity">
-                    <div class="number">
-                      <span class="minus">-</span>
-                      <input type="text" value="1"/>
-                      <span class="plus">+</span>
-                    </div>
-                    <div class="add-to-card">
-                      <a href="#">Add to card</a>
-                    </div>
+<!--                  <div class="product-quantity">-->
+<!--                    <div class="number">-->
+<!--                      <span class="minus">-</span>-->
+<!--                      <input type="text" value="1"/>-->
+<!--                      <span class="plus">+</span>-->
+<!--                    </div>-->
+<!--                    <div class="add-to-card">-->
+<!--                        <a href="{{ object.get_add_to_cart_url }}" class="btn-primary">-->
+<!--                            Add to cart-->
+<!--                            <i class="fas fa-shopping-cart ml-1"></i>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                  </div>-->
+                  <div class="add-to-card">
+                    <a href="{{ object.get_add_to_cart_url }}" class="btn-primary">
+                        ADD TO CART
+                        <i class="fas fa-shopping-cart ml-1"></i>
+                    </a>
                   </div>
-                  <div class="product-buy-now">
-                    <a href="#">BUY NOW</a>
+                  <div class="remove-product-from-cart">
+                    <a href="{{ object.get_remove_from_cart_url }}">REMOVE FROM CART</a>
                   </div>
                 </div>
             </div>
@@ -145,129 +147,129 @@
     </div>
 
 
-    <div class="container dark-grey-text mt-5">
+<!--    <div class="container dark-grey-text mt-5">-->
 
-        <!--Grid row-->
-        <div class="row wow fadeIn">
+<!--        &lt;!&ndash;Grid row&ndash;&gt;-->
+<!--        <div class="row wow fadeIn">-->
 
-            <!--Grid column-->
-            <div class="col-md-6 mb-4">
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
+<!--            <div class="col-md-6 mb-4">-->
 
-                <img src="{{ object.image.url }}" class="img-fluid" alt="">
+<!--                <img src="{{ object.image.url }}" class="img-fluid" alt="">-->
 
-            </div>
-            <!--Grid column-->
+<!--            </div>-->
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
 
-            <!--Grid column-->
-            <div class="col-md-6 mb-4">
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
+<!--            <div class="col-md-6 mb-4">-->
 
-                <!--Content-->
-                <div class="p-4">
+<!--                &lt;!&ndash;Content&ndash;&gt;-->
+<!--                <div class="p-4">-->
 
-                    <div class="mb-3">
-                        <a href="">
-                            <span class="badge purple mr-1">{{ object.get_category_display }}</span>
-                        </a>
-                    </div>
+<!--                    <div class="mb-3">-->
+<!--                        <a href="">-->
+<!--                            <span class="badge purple mr-1">{{ object.get_category_display }}</span>-->
+<!--                        </a>-->
+<!--                    </div>-->
 
-                    <p class="lead">
-                        {% if object.discount_price %}
-                        <span class="mr-1">
-                  <del>${{ object.price }}</del>
-                </span>
-                        <span class="font-weight-bold blue-text">${{ object.discount_price }}</span>
-                        {% else %}
-                        <span class="font-weight-bold blue-text">${{ object.price }}</span>
-                        {% endif %}
-                    </p>
+<!--                    <p class="lead">-->
+<!--                        {% if object.discount_price %}-->
+<!--                            <span class="mr-1">-->
+<!--                              <del>${{ object.price }}</del>-->
+<!--                            </span>-->
+<!--                            <span class="font-weight-bold blue-text">${{ object.discount_price }}</span>-->
+<!--                        {% else %}-->
+<!--                            <span class="font-weight-bold blue-text">${{ object.price }}</span>-->
+<!--                        {% endif %}-->
+<!--                    </p>-->
 
-                    <p class="lead font-weight-bold">Description</p>
+<!--                    <p class="lead font-weight-bold">Description</p>-->
 
-                    <p>{{ object.description }}</p>
+<!--                    <p>{{ object.description }}</p>-->
 
-                    {% comment %}
-                    <form class="d-flex justify-content-left">
-                        <!-- Default input -->
-                        <input type="number" value="1" aria-label="Search" class="form-control" style="width: 100px">
-                        <button class="btn btn-primary btn-md my-0 p" type="submit">
-                            Add to cart
-                            <i class="fas fa-shopping-cart ml-1"></i>
-                        </button>
+<!--                    {% comment %}-->
+<!--                    <form class="d-flex justify-content-left">-->
+<!--                        &lt;!&ndash; Default input &ndash;&gt;-->
+<!--                        <input type="number" value="1" aria-label="Search" class="form-control" style="width: 100px">-->
+<!--                        <button class="btn btn-primary btn-md my-0 p" type="submit">-->
+<!--                            Add to cart-->
+<!--                            <i class="fas fa-shopping-cart ml-1"></i>-->
+<!--                        </button>-->
 
-                    </form>
-                    {% endcomment %}
-                    <a href="{{ object.get_add_to_cart_url }}" class="btn btn-primary btn-md my-0 p">
-                        Add to cart
-                        <i class="fas fa-shopping-cart ml-1"></i>
-                    </a>
-                    <a href="{{ object.get_remove_from_cart_url }}" class="btn btn-danger btn-md my-0 p">
-                        Remove from cart
-                    </a>
+<!--                    </form>-->
+<!--                    {% endcomment %}-->
+<!--                    <a href="{{ object.get_add_to_cart_url }}" class="btn btn-primary btn-md my-0 p">-->
+<!--                        Add to cart-->
+<!--                        <i class="fas fa-shopping-cart ml-1"></i>-->
+<!--                    </a>-->
+<!--                    <a href="{{ object.get_remove_from_cart_url }}" class="btn btn-danger btn-md my-0 p">-->
+<!--                        Remove from cart-->
+<!--                    </a>-->
 
-                </div>
-                <!--Content-->
+<!--                </div>-->
+<!--                &lt;!&ndash;Content&ndash;&gt;-->
 
-            </div>
-            <!--Grid column-->
+<!--            </div>-->
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
 
-        </div>
-        <!--Grid row-->
+<!--        </div>-->
+<!--        &lt;!&ndash;Grid row&ndash;&gt;-->
 
-        <hr>
+<!--        <hr>-->
 
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center wow fadeIn">
+<!--        &lt;!&ndash;Grid row&ndash;&gt;-->
+<!--        <div class="row d-flex justify-content-center wow fadeIn">-->
 
-            <!--Grid column-->
-            <div class="col-md-6 text-center">
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
+<!--            <div class="col-md-6 text-center">-->
 
-                <h4 class="my-4 h4">Additional information</h4>
+<!--                <h4 class="my-4 h4">Additional information</h4>-->
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit modi sapiente illo soluta
-                    odit
-                    voluptates,
-                    quibusdam officia. Neque quibusdam quas a quis porro? Molestias illo neque eum in laborum.</p>
+<!--                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit modi sapiente illo soluta-->
+<!--                    odit-->
+<!--                    voluptates,-->
+<!--                    quibusdam officia. Neque quibusdam quas a quis porro? Molestias illo neque eum in laborum.</p>-->
 
-            </div>
-            <!--Grid column-->
+<!--            </div>-->
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
 
-        </div>
-        <!--Grid row-->
+<!--        </div>-->
+<!--        &lt;!&ndash;Grid row&ndash;&gt;-->
 
-        <!--Grid row-->
-        <div class="row wow fadeIn">
+<!--        &lt;!&ndash;Grid row&ndash;&gt;-->
+<!--        <div class="row wow fadeIn">-->
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
+<!--            <div class="col-lg-4 col-md-12 mb-4">-->
 
-                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/11.jpg" class="img-fluid"
-                     alt="">
+<!--                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/11.jpg" class="img-fluid"-->
+<!--                     alt="">-->
 
-            </div>
-            <!--Grid column-->
+<!--            </div>-->
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
+<!--            <div class="col-lg-4 col-md-6 mb-4">-->
 
-                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/12.jpg" class="img-fluid"
-                     alt="">
+<!--                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/12.jpg" class="img-fluid"-->
+<!--                     alt="">-->
 
-            </div>
-            <!--Grid column-->
+<!--            </div>-->
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
+<!--            <div class="col-lg-4 col-md-6 mb-4">-->
 
-                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/13.jpg" class="img-fluid"
-                     alt="">
+<!--                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/13.jpg" class="img-fluid"-->
+<!--                     alt="">-->
 
-            </div>
-            <!--Grid column-->
+<!--            </div>-->
+<!--            &lt;!&ndash;Grid column&ndash;&gt;-->
 
-        </div>
-        <!--Grid row-->
+<!--        </div>-->
+<!--        &lt;!&ndash;Grid row&ndash;&gt;-->
 
-    </div>
+<!--    </div>-->
 </main>
 
 {% endblock content %}
