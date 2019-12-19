@@ -10,7 +10,7 @@
     </div>
   </div>
     <div class="container">
-        <div class="row" style="padding: 4em 0 0;">
+      <div class="row" style="padding: 4em 0 0;">
             <div class="col-md-6 product-detail-img">
                 <img src="{{ object.image.url }}" alt="">
             </div>
@@ -56,92 +56,32 @@
       <div class="row" style="position: relative;">
         <h2 class="section-name">Related Items</h2>
         <div class="owl-carousel owl-theme products-wrapper">
-          <div class="item">
+          {% for item in similar_products %}
+            <div class="item">
               <div class="product-wrapper">
-              <a class="product-link" href="#">
-              <div class="product-img">
-                <div class="product-sale">SALE</div>
-                <div class="product-sale">-15%</div>
-              <img src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/1_600x800_crop_bottom.jpg" alt="">
-            </div>
-            <div class="product-text">
-              <div class="product-title line-clamp-2">Side Ottoman</div>
-              <div class="product-price">
-                <div class="product-price-new">$110</div>
-                <div class="product-price-old">$130</div>
+                <a class="product-link" href="#">
+                  <div class="product-img">
+                    {% if item.discount_price %}
+                      <div class="product-sale">SALE</div>
+                      <div class="product-sale">{{ item.discount_price }}%</div>
+                    {% endif %}
+                    <img src="{{ item.image.url }}" alt="">
+                  </div>
+                  <div class="product-text">
+                    <div class="product-title line-clamp-2">{{ item.title }}</div>
+                    <div class="product-price">
+                      {% if item.discount_price %}
+                            <div class="product-price-old">${{ item.price }}</div>
+                            <div class="product-price-new">${{ item.discount_price }}</div>
+                        {% else %}
+                            <div class="product-price-new">${{ item.price }}</div>
+                        {% endif %}
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
-            </a>
-            </div>
-          </div>
-          <div class="item ">
-            <div class="product-wrapper">
-              <a class="product-link" href="#">
-              <div class="product-img">
-              <img src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/5_600x800_crop_bottom.jpg?v=1551175841" alt="">
-            </div>
-            <div class="product-text">
-              <div class="product-title line-clamp-2">Wooden Candle Holder</div>
-              <div class="product-description"></div>
-              <div class="product-price">
-                <div class="product-price-new">$110</div>
-                <div class="product-price-old">$130</div>
-              </div>
-            </div>
-            </a>
-            </div>
-          </div>
-          <div class="item ">
-            <div class="product-wrapper">
-              <a class="product-link" href="#">
-              <div class="product-img">
-              <img src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/9_600x800_crop_bottom.jpg?v=1551176591" alt="">
-            </div>
-            <div class="product-text">
-              <div class="product-title line-clamp-2">Green Couch</div>
-              <div class="product-description"></div>
-              <div class="product-price">
-                <div class="product-price-new">$110</div>
-                <div class="product-price-old">$130</div>
-              </div>
-            </div>
-            </a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="product-wrapper">
-              <a class="product-link" href="#">
-              <div class="product-img">
-              <img src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/8_600x800_crop_bottom.jpg?v=1551176318" alt="">
-            </div>
-            <div class="product-text">
-              <div class="product-title line-clamp-2">Dining Chair Variant</div>
-              <div class="product-description"></div>
-              <div class="product-price">
-                <div class="product-price-new">$110</div>
-                <div class="product-price-old">$130</div>
-              </div>
-            </div>
-            </a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="product-wrapper">
-              <a class="product-link" href="#">
-              <div class="product-img">
-              <img src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/8_600x800_crop_bottom.jpg?v=1551176318" alt="">
-            </div>
-            <div class="product-text">
-              <div class="product-title line-clamp-2">Dining Chair Variant</div>
-              <div class="product-description"></div>
-              <div class="product-price">
-                <div class="product-price-new">$110</div>
-                <div class="product-price-old">$130</div>
-              </div>
-            </div>
-            </a>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>

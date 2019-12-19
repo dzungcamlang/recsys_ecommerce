@@ -16,6 +16,8 @@ import os
 import random
 import string
 import stripe
+import requests
+
 
 stripe.api_key = settings.STRIPE_SECRET_KEY
 
@@ -288,20 +290,22 @@ class HomeView(ListView):
         context = super().get_context_data(**kwargs)
         # Add in a QuerySet of all the books
         context['head_title'] = "Django E-Commerce Website with RecSys embedded"
-        context["similar_products"] = self.get_recommend_list()
+        context["recommend_products"] = self.get_recommend_list()
         return context
 
-    def get_recommend_list(self):
-        import requests
+    def get_recommend_list(self, nitems=8):
         url = 'http://127.0.0.1:5000/api/recommend'
         params = dict(
             userid=self.request.user.id if self.request.user.is_authenticated else int(User.objects.latest('id').id)+1,
-            nitems=8
+            nitems=nitems
         )
-        resp = requests.get(url=url, params=params)
-        data = resp.json()
-        if data["status"] == 200:
-            return Item.objects.filter(id__in=data["result"])
+        try:
+            resp = requests.get(url=url, params=params)
+            data = resp.json()
+            if data["status"] == 200:
+                return Item.objects.filter(id__in=data["result"])
+        except Exception as e:
+            return []
         return None
 
 
@@ -328,19 +332,24 @@ class ItemDetailView(DetailView):
         context = super().get_context_data(**kwargs)
         # Add in a QuerySet of all the books
         context['head_title'] = self.get_object().title
+        context["similar_products"] = self.get_similar_list()
         return context
 
-    def get_similar_list(self):
-        import requests
+    def get_similar_list(self, nitems=8):
         url = 'http://127.0.0.1:5000/api/similar'
         params = dict(
             productid=self.get_object().id,
-            nitems=8
+            nitems=nitems
         )
-        resp = requests.get(url=url, params=params)
-        data = resp.json()
-        if data["status"] == 200:
-            return Item.objects.filter(id__in=data["result"])
+        try:
+            resp = requests.get(url=url, params=params)
+            data = resp.json()
+            if data["status"] == 200:
+                return Item.objects.filter(id__in=data["result"])
+            else:
+                print(data)
+        except Exception as e:
+            return []
         return None
 
 @login_required

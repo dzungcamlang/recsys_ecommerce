@@ -5,6 +5,10 @@ from flask_restful import Api, Resource, reqparse
 from datetime import datetime, timedelta
 from sklearn.preprocessing import MinMaxScaler, Normalizer, StandardScaler
 import pandas as pd
+from google_images_download import google_images_download
+import string
+import re
+
 
 model = pickle.load(open('./model.pkl', 'rb'))
 
@@ -33,6 +37,68 @@ parser = reqparse.RequestParser()
 parser.add_argument('userid', type=int)
 parser.add_argument('productid', type=int)
 parser.add_argument('nitems', type=int, default=10)
+parser.add_argument('query', type=str)
+
+
+# creating object
+response = google_images_download.googleimagesdownload()
+
+
+class ImageQuery(Resource):
+    # keywords is the search query
+    # format is the image file format
+    # limit is the number of images to be downloaded
+    # print urs is to print the image file url
+    # size is the image size which can
+    # be specified manually ("large, medium, icon")
+    # aspect ratio denotes the height width ratio
+    # of images to download. ("tall, square, wide, panoramic")
+    def get(self):
+        args = parser.parse_args()
+        query = str(args['query']).replace("_", " ").lower()
+        query = "furniture {query}".format(query=query)
+        chars = re.escape(string.punctuation)
+        query = re.sub(r'[' + chars + ']', '', query)
+        try:
+            nitems = int(args['nitems']) if int(args['nitems']) > 0 else 10
+        except Exception as e:
+            return_js = {"status": 404, "message": "nitems must be an Integer"}
+            return jsonify(return_js)
+
+        if len(query) >= 0:
+            arguments = {"keywords": query,
+                         "format": "jpg",
+                         "limit": nitems,
+                         "size": "medium",
+                         "type": "photo",
+                         "aspect_ratio": "panoramic",
+                         "output_directory": "./imgs",
+                         "no_directory": True,
+                         "silent_mode": True,
+                         "no_numbering": True}
+            try:
+                path = response.download(arguments)
+            except FileNotFoundError:
+                arguments = {"keywords": query,
+                             "format": "jpg",
+                             "limit": nitems,
+                             "size": "medium",
+                             "type": "photo",
+                             "output_directory": "./imgs",
+                             "no_directory": True,
+                             "silent_mode": True,
+                             "no_numbering": True}
+
+                try:
+                    path = response.download(arguments)
+                except:
+                    return_js = {"status": 404, "message": "Image capturing failed", "query": query}
+                    return jsonify(return_js)
+            if len(path[0].get(query)) > 0:
+                return_js = {"status": 200, "url": path[0].get(query)[0]}
+            else:
+                return_js = {"status": 404, "message": "Images not found", "query": query}
+            return jsonify(return_js)
 
 
 class UserRecommendation(Resource):
@@ -47,7 +113,7 @@ class UserRecommendation(Resource):
             return_js = {"status": 404, "message": "nitems must be an Integer"}
             return jsonify(return_js)
 
-        if uid:
+        if uid >= 0:
             try:
                 uid = int(uid)
                 user_data = data_df[data_df.user_id == uid]
@@ -89,7 +155,7 @@ class SimilarProducts(Resource):
             return_js = {"status": 404, "message": "nitems must be an Integer"}
             return jsonify(return_js)
 
-        if pid:
+        if pid >= 0:
             try:
                 pid = int(pid)
                 product_data = data_df[data_df.product_id == pid]
@@ -111,12 +177,13 @@ class SimilarProducts(Resource):
                 return_js = {"status": 404, "message": "User_id must be an Integer"}
                 return jsonify(return_js)
         else:
-            return_js = {"status": 404, "message": "No similar product", "productid":pid}
+            return_js = {"status": 404, "message": "No similar product", "productid": pid}
             return jsonify(return_js)
 
 
 api.add_resource(UserRecommendation, '/api/recommend')
 api.add_resource(SimilarProducts, '/api/similar')
+api.add_resource(ImageQuery, '/api/imageurl')
 
 if __name__ == '__main__':
      app.run(debug=True)
