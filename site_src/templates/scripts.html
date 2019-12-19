@@ -12,10 +12,47 @@
 <script type="text/javascript">
   // Animations initialization
   new WOW().init();
-  $('.owl-carousel').owlCarousel({
+  $('#home .owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:false,
+    responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:1
+      }
+    }
+  });
+
+
+  	$(document).ready(function() {
+			$('#products .minus').click(function () {
+				var $input = $(this).parent().find('input');
+				var count = parseInt($input.val()) - 1;
+				count = count < 1 ? 1 : count;
+				$input.val(count);
+				$input.change();
+				return false;
+			});
+			$('#products .plus').click(function () {
+				var $input = $(this).parent().find('input');
+				$input.val(parseInt($input.val()) + 1);
+				$input.change();
+				return false;
+			});
+		});
+
+	new WOW().init();
+  $('#products .owl-carousel').owlCarousel({
     loop:false,
     margin:10,
     nav:true,
+    dots: false,
     responsive:{
       0:{
           items:1
@@ -24,8 +61,24 @@
           items:3
       },
       1000:{
-          items:5
+          items:4
       }
     }
-  })
+  });
+  $('#products .owl-theme .owl-nav').removeClass('disabled');
+
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+  var page_num = getParameterByName('page');
+  if (page_num != null) {
+      document.getElementById("product-list").scrollIntoView(true);
+  }
+  // alert(page_num)
 </script>
