@@ -305,7 +305,7 @@ class HomeView(ListView):
             if data["status"] == 200:
                 return Item.objects.filter(id__in=data["result"])
         except Exception as e:
-            return []
+            return Item.objects.filter(id__in=range(nitems))
         return None
 
 
@@ -349,7 +349,7 @@ class ItemDetailView(DetailView):
             else:
                 print(data)
         except Exception as e:
-            return []
+            return Item.objects.filter(id__in=range(nitems))
         return None
 
 @login_required

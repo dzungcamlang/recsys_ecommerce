@@ -12,7 +12,7 @@
 <script type="text/javascript">
   // Animations initialization
   new WOW().init();
-  $('#home .owl-carousel').owlCarousel({
+  $('#home #slideshow .owl-carousel').owlCarousel({
     loop:false,
     margin:10,
     nav:false,
@@ -28,26 +28,24 @@
       }
     }
   });
+  $(document).ready(function() {
+        $('#products .minus').click(function () {
+            var $input = $(this).parent().find('input');
+            var count = parseInt($input.val()) - 1;
+            count = count < 1 ? 1 : count;
+            $input.val(count);
+            $input.change();
+            return false;
+        });
+        $('#products .plus').click(function () {
+            var $input = $(this).parent().find('input');
+            $input.val(parseInt($input.val()) + 1);
+            $input.change();
+            return false;
+        });
+    });
 
-
-  	$(document).ready(function() {
-			$('#products .minus').click(function () {
-				var $input = $(this).parent().find('input');
-				var count = parseInt($input.val()) - 1;
-				count = count < 1 ? 1 : count;
-				$input.val(count);
-				$input.change();
-				return false;
-			});
-			$('#products .plus').click(function () {
-				var $input = $(this).parent().find('input');
-				$input.val(parseInt($input.val()) + 1);
-				$input.change();
-				return false;
-			});
-		});
-
-	new WOW().init();
+  new WOW().init();
   $('#products .owl-carousel').owlCarousel({
     loop:false,
     margin:10,
