@@ -290,7 +290,7 @@ class HomeView(ListView):
         context = super().get_context_data(**kwargs)
         # Add in a QuerySet of all the books
         context['head_title'] = "Django E-Commerce Website with RecSys embedded"
-        context["recommend_products"] = self.get_recommend_list()
+        context["recommended_products"] = self.get_recommend_list()
         return context
 
     def get_recommend_list(self, nitems=8):
