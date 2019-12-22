@@ -59,7 +59,7 @@
           {% for item in similar_products %}
             <div class="item">
               <div class="product-wrapper">
-                <a class="product-link" href="#">
+                <a class="product-link" href="{{ item.get_absolute_url }}">
                   <div class="product-img">
                     {% if item.discount_price %}
                       <div class="product-sale">SALE</div>

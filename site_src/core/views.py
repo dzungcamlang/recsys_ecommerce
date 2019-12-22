@@ -294,18 +294,25 @@ class HomeView(ListView):
         return context
 
     def get_recommend_list(self, nitems=8):
-        url = 'http://127.0.0.1:5000/api/recommend'
         params = dict(
             userid=self.request.user.id if self.request.user.is_authenticated else int(User.objects.latest('id').id)+1,
             nitems=nitems
         )
         try:
-            resp = requests.get(url=url, params=params)
+            resp = requests.get(url='http://127.0.0.1:5000/api/recommend', params=params)
             data = resp.json()
             if data["status"] == 200:
                 return Item.objects.filter(id__in=data["result"])
         except Exception as e:
-            return Item.objects.filter(id__in=range(nitems))
+            try:
+                resp = requests.get(url='http://api-service:5000/api/recommend', params=params)
+                data = resp.json()
+                if data["status"] == 200:
+                    return Item.objects.filter(id__in=data["result"])
+                else:
+                    print(data)
+            except Exception as e:
+                return Item.objects.filter(id__in=range(nitems))
         return None
 
 
@@ -336,20 +343,27 @@ class ItemDetailView(DetailView):
         return context
 
     def get_similar_list(self, nitems=8):
-        url = 'http://127.0.0.1:5000/api/similar'
         params = dict(
             productid=self.get_object().id,
             nitems=nitems
         )
         try:
-            resp = requests.get(url=url, params=params)
+            resp = requests.get(url='http://127.0.0.1:5000/api/similar', params=params)
             data = resp.json()
             if data["status"] == 200:
                 return Item.objects.filter(id__in=data["result"])
             else:
                 print(data)
         except Exception as e:
-            return Item.objects.filter(id__in=range(nitems))
+            try :
+                resp = requests.get(url='http://api-service:5000/api/similar', params=params)
+                data = resp.json()
+                if data["status"] == 200:
+                    return Item.objects.filter(id__in=data["result"])
+                else:
+                    print(data)
+            except Exception as e:
+                return Item.objects.filter(id__in=range(nitems))
         return None
 
 @login_required

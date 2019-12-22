@@ -1,0 +1,12 @@
+version: '3'
+services:
+  api-service:
+    image: iuthesis_recsys_web:latest
+    ports:
+    - "5000:5000"
+    command: python3.7 ./recsys/api.py
+  web-service:
+    image: iuthesis_recsys_web:latest
+    ports:
+    - "8000:8000"
+    command: python3.7 ./site_src/manage.py runserver 0.0.0.0:8000

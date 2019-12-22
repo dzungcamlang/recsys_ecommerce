@@ -1,3 +1,4 @@
+import argparse
 import pickle
 import scipy.sparse as sparse
 from flask import Flask, jsonify
@@ -8,9 +9,10 @@ import pandas as pd
 from google_images_download import google_images_download
 import string
 import re
+import os
 
 
-model = pickle.load(open('./model.pkl', 'rb'))
+model = pickle.load(open(os.path.join(os.getcwd(), "recsys/model.pkl"), 'rb'))
 
 
 def processing_df(df):
@@ -22,7 +24,7 @@ def processing_df(df):
     return p_df
 
 
-data_df = pd.read_csv("./data/core_events.csv")
+data_df = pd.read_csv(os.path.join(os.getcwd(), "recsys/data/core_events.csv"))
 data_df.columns = ['id', 'time', 'product_id', 'user_id']
 data_df = processing_df(data_df)
 most_popular_product_df = data_df.groupby(["product_id"]).point.sum().reset_index().sort_values(["point"], ascending=False)
@@ -186,4 +188,9 @@ api.add_resource(SimilarProducts, '/api/similar')
 api.add_resource(ImageQuery, '/api/imageurl')
 
 if __name__ == '__main__':
-     app.run(debug=True)
+    argparser = argparse.ArgumentParser(description='BET API')
+    argparser.add_argument('--debug', dest='debug', action='store_true')
+    argparser.add_argument('--host', metavar='host', action='store', default="0.0.0.0", type=str, help='Host of API')
+    argparser.add_argument('--port', metavar='port', action='store', default=5000, type=int, help='Port of API')
+    cmdargs = argparser.parse_args()
+    app.run(debug=cmdargs.debug, host=cmdargs.host, port=cmdargs.port)
