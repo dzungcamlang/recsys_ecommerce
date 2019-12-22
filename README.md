@@ -6,14 +6,26 @@ RecSys_ecommerce
 |-site_src
 ```
 
-# Run web server
+# Local users
 
-`cd ./site_src`
+### Setup
 
-`python manage.py runserver`
+`python -m pip install -r requirements.txt`
 
-# Run Recsys api
+or
 
-`cd ./recsys`
+`python3 -m pip install -r requirements.txt`
 
-`python api.py`
+### Run web server
+
+`python site_src/manage.py runserver`
+
+### Run Recsys api
+
+`python recsys/api.py`
+
+# Docker users
+
+`docker build . -t iuthesis_recsys_web:latest`
+
+`docker-compose up`
