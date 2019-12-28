@@ -89,6 +89,7 @@ for idx, row in db.iterrows():
     User.objects.create(
         password="pbkdf2_sha256$150000$tdcUxBFT1X3b$CrIjLb2uIyjoAsmdhRVbD+nkISE+Whz4gy+1u2PlaeU=",
         is_superuser=1,
+        is_staff=1,
         id=row[0],
         username=row[1],
         email="mail_{}@gmail.com".format(row[1]))
