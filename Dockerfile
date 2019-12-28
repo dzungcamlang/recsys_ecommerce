@@ -12,6 +12,7 @@ RUN apt-get install -y wget
 RUN apt-get install unzip
 RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip
 RUN unzip ngrok-stable-linux-386.zip -d /usr/local/bin
+RUN apt update -y
 RUN apt-get install -y python-dev python3.7-dev \
      build-essential libssl-dev libffi-dev \
      libxml2-dev libxslt1-dev zlib1g-dev \
