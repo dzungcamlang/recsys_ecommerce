@@ -1,0 +1,496 @@
+0;LIC0001F000SAC1;Ghế Tồn Kho;Xuất bán T10/013 - 07102016 - Hàng kho Showroom;28.4
+1;LIS0001F000SAC1;Set Hàng Tồn Kho;Xuất bán T10/013 - 07102016 - Hàng kho Showroom;266.0
+2;LISREX1F332SCA2;RELAX SUNLOUNGER__F332;Xuất bán T10/019 - 15062016  - LSX 48;52.5
+3;LISUNL1F000SAC1;Giường Tồn Kho;Xuất bán T10/013 - 07102016 - Hàng kho Showroom;109.8
+4;LTBALB1F310SCK1;Albi Bench_F310;Xuất bán T01/094  - HEINSTAD -STADTHAGEN2 - LSX 42 ;40.0
+5;LTBARH1F210SC1;Aarhus Sunlounger_F210;Xuất bán T05/30-LT-JOHANRO29012016  ngày ETD 15/5/2016;44.5
+6;LTBDIA1F268SCA1;Diana Lounger_F268;Xuất bán T01/022-SPIGROB-GROBWALLSTADT - LSX 42;80.0
+7;LTBDYV1F401SAC1;DYVIG BENCH CHAIR_F401;Xuất bán T10/028 - LT14416DHTG- LSX 51;50.0
+8;LTBLET1H171SK1;Leticia Lounge_H171;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;163.75
+9;LTBPAL1F170SK1;Palermo Chaise Loungue_F170;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;105.4
+10;LTBSUN1F310SC1;Sunbed_F310;Xuất T02/050-LT-ME 23/069- LSX 49;49.5
+11;LTCADJ1H274AEK1;Adjustable Chair_H274;"Xuất bán T12/040 - 222250/7280 ; 222250/7282 LSX 47";57.230000000000004
+12;LTCALB1F310SCK1;Albi Armchair_F310;Xuất bán T01/094  - HEINSTAD -STADTHAGEN2 - LSX 42 ;20.0
+13;LTCANG1F253SC1;ANGEBOT GARDEN GHẾ ĐƠN F253;Xuất bán T01/068 - LTINV58143146-2 - LSX 55;23.5
+14;LTCANG2F253SC1;ANGEBOT GARDEN GHẾ ĐÔI F253;Xuất bán T01/068 - LTINV58143146-2 - LSX 55;46.0
+15;LTCARMF322ACK1;Armchair_F322;"Xuất bán T12/41 - 222250/7280 ; 222250/7282 LSX 47";26.09
+16;LTCBAL1A1FP;Bali Chair_AL_KXS; Xuất mẫu đi test theo phiếu yêu cầu xuất xưởng ngày 22/11/2016- Khách hàng chịu tiền test mục 2+3;0.0
+17;LTCBAL1F247SCK1;Balkon Chair_F247;Xuất bán T01/056 - 111 - LSX 49;93.0
+18;LTCBAL1F310SC1;Balkon Chair_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;21.5
+19;LTCBAL1F310SPA1;Bali Chair_F310;Xuất T02/051-LTINV26956-57 (2131158)- LSX 73;15.2
+20;LTCBAL1F401SC1;Balkon Chair_F401;Xuất bán T01/067 - LTINV58143146-2 - LSX 55;21.0
+21;LTCBEN1F322AK1;Bench 3 Seater_F322;"Xuất bán T12/039 - 222250/7280 ; 222250/7282 LSX 47";77.6
+22;LTCBIR1F274SPA1;Birkemose (Jubi) Chair _F274;Xuất bán T01/093  - LACASAWAREHOUSE- LSX 42;15.899999999999999
+23;LTCBIR1F314SP1;New Birkemose Chair_F314;Xuất T02/35 - LTINV6966-  LSX 35;10.15
+24;LTCBIR1S1FPPL;Pallet Birkemose Chair_FE_KXS;Xuất duyệt mẫu đối chứng theo phiếu yêu cầu xuất xưởng ngày 29/8/2016;0.0
+25;LTCBIR2F310S1WI;New Birkemose Chair_F310_DAN;Xuất mẫu LSX 79  sang Khách Hàng Đan Mạch theo phiếu yêu cầu xuất xưởng ngày 16/9/2016.(Lê Trần chịu tiền mẫu,KH chịu tiền VC);0.0
+26;LTCBIR2F310SP1;New Birkemose Chair_F310;Xuất T02/02 -LTINV6928 - LSX 35;10.15
+27;LTCBIR2F314S1WI;New Birkemose Chair_F314_DAN;Xuất mẫu LSX 79  sang Khách Hàng Đan Mạch theo phiếu yêu cầu xuất xưởng ngày 16/9/2016.(Lê Trần chịu tiền mẫu,KH chịu tiền VC);0.0
+28;LTCBIR2F314SP1;New Birkemose Chair_F314;Xuất bán T12/59 -LTINV6954-  LSX 35;10.15
+29;LTCBIS1F220AP1;Bistro Chair_F220;Xuất bán T12/64 - 062-2- lsx 49;10.5
+30;LTCBIS1F310SP1;Bistro Chair_F310;Xuất T02/01 -715- lsx 48;10.5
+31;LTCBOG1F310SC;Bogensy Bench_F310;Xuất bán T11/53 - LT - ME 20/0 10 - LSX 49 ;48.5
+32;LTCBOG2F343ACK1;Bogense Bench_F343;Xuất bán T01/070 - LTINV58143146-2 - LSX 55;52.0
+33;LTCBOR1F110SP1;Bork Chair_F110;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 27/05/2016;0.0
+34;LTCBOR1F114SP1;Bork Chair_F114;Xuất bán T05/37- LTINV5263 ngày ETD 23/05/2016;16.15
+35;LTCBOR1F210SP1;Bork Chair_F210;Xuất bán T01/009- 2250222;17.7
+36;LTCBOR1F253SP;Bork Chair_F253;Xuất bán T10/014 - 08062016-1 -LSX 43;19.5
+37;LTCBOR1F253SPA2;HIGH BORK CHAIR_F253;Xuất bán T10/014 - 08062016-1 -LSX 43;22.5
+38;LTCBOR1F310SK1;New Bork Chair F310;Xuất T02/22 - LTINV3119 - LSX 35;14.6
+39;LTCBOR1F314S1WI;New Bork Chair_F314_DAN;Xuất mẫu LSX 79  sang Khách Hàng Đan Mạch theo phiếu yêu cầu xuất xưởng ngày 16/9/2016.(Lê Trần chịu tiền mẫu,KH chịu tiền VC);0.0
+40;LTCBOR1F314SPA2;New Bork Chair_F314;Xuất T02/14 - LTINV1655 -  LSX 65 ;14.6
+41;LTCBOR1H274SK2;Polden Chair(New Bork Chair)_H274;Xuất bán T05/40- LTINV8933 ngày ETD 23/05/2016;19.9
+42;LTCBOR1S1FPPL;Pallet_Bork Chair_FE_KXS;Xuất duyệt mẫu đối chứng theo phiếu yêu cầu xuất xưởng ngày 29/8/2016;0.0
+43;LTCCAV1A1FP;Cavallino Chair_AL_KXS; Xuất mẫu đi test theo phiếu yêu cầu xuất xưởng ngày 22/11/2016- Khách hàng chịu tiền test mục 2+3;0.0
+44;LTCCAV1A1FPPL;Pallet_Cavallino_AL_KXS;Xuất duyệt mẫu đối chứng theo phiếu yêu cầu xuất xưởng ngày 29/8/2016;0.0
+45;LTCCAV1F310AP1;Cavallino Chair_AL_F310;Xuất T02/05 -4511045685/160 - lsx 48;14.0
+46;LTCCAV1F314SPA1;Cavallino Chair_F314;Xuất bán T04/129 -451189751-010 - LSX 05;14.0
+47;LTCCER1F263SCK2;Cerdena Armchair_F263;Xuất bán T03/117 -LT2917CLFA - LSX 84;38.5
+48;LTCCER1F264SCA1;Cerdena Dining Chair_F264;Xuất bán T03/31 - LT1817CLFA LSX 79;18.63
+49;LTCCER3F263SK1;Cerdena 3 Seater_F263;Xuất bán T03/117 -LT2917CLFA - LSX 84;76.0
+50;LTCCOLOTA03SCA2;Colombia Set_Ghế Đơn_H87;Xuất bán T01/069 - LTINV58143146-2 - LSX 55;67.5
+51;LTCCOLOTA03SCA3;Colombia Set_Ghế Ba_H87;Xuất bán T01/069 - LTINV58143146-2 - LSX 55;150.0
+52;LTCCORCF268AK1;Corner Sofa Set_Corner_F268;Xuất bán T01/023-JETTENBURG - LSX 42;69.4
+53;LTCCORCF274AK1;Corner sofa set_H274;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 25/05/2016;0.0
+54;LTCCORLF268AK1;Corner sofa set(158085 left)_F268;Xuất bán T01/023-JETTENBURG - LSX 42;69.4
+55;LTCCORMF268AK1;Corner sofa set(158085  Middle)_F268;Xuất bán T01/023-JETTENBURG - LSX 42;34.7
+56;LTCCORRF268AK1;Corner sofa set_ Right_F268;Xuất bán T01/023-JETTENBURG - LSX 42;69.4
+57;LTCCUI1F310SCA1;Armchair Cuise Set_Ghế Đơn_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;19.0
+58;LTCCUI1F310SCA2;Cuise Set_Ghế Đôi_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;40.0
+59;LTCDAN1F338SPA1;Daniel Chair_F338;Xuất bán T01/126 - LTINV26553 - LSX 70;12.5
+60;LTCDAN1F339SPA1;Daniel Chair_F339;Xuất bán T01/126 - LTINV26553 - LSX 70;11.0
+61;LTCDAN1F400SPA1;Daniel Chair_F400;Xuất bán T01/126 - LTINV26553 - LSX 70;11.0
+62;LTCDIA1F268SCA1;Diana Chair_F268;Xuất bán T01/092  - KNAPREM91X3K - LSX 42;28.900000000000002
+63;LTCDIA1F268SCK2;Diana Position Chair_F268;Xuất bán T01/022-SPIGROB-GROBWALLSTADT - LSX 42;41.0
+64;LTCDYV1F401SAC1;DYVIG ARM CHAIR_F401;Xuất bán T10/028 - LT14416DHTG- LSX 51;27.0
+65;LTCERO1H275ACA1;Erope Chair_H275;Xuất bán T01/080 - LT18016COFA-  LSX 68;47.5
+66;LTCEUR1F275AK1;Europe Rocking Chair_F275;Xuất bán T05/32-LT8016COFA-2  ngày ETD 18/5/2016;47.5
+67;LTCFLOL3F243AK2;Florida sofa 3 seater_left chair_F243;Xuất T02/056-265- LSX 19;70.0
+68;LTCFLOR3F243AK2;Florida sofa 3 seater_right chair_F243;Xuất T02/056-265- LSX 19;70.0
+69;LTCFOL1F310SAC1;Folding Chair_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;14.950000000000001
+70;LTCGAR1H374SK1;Gartengarnitur Chair_H374;Xuất bán T09/17 - 00IRC -LSX2016/ 36;31.669999999999998
+71;LTCGEN1F268SP1;Genova Chair_F268;Xuất T02/053-LACASAWAREHOUSE 4 (148058, 155560, 158090, 158103)- LSX 42;22.2
+72;LTCGUD1F114SP1;Gudhjem Chair_F114;Xuất T02/053-LACASAWAREHOUSE 4 (148058, 155560, 158090, 158103)- LSX 42;11.9
+73;LTCGUD1F210SPA1;Gudhjem Chair_F210;Xuất bán T01/005 -250218;10.49
+74;LTCGUD1F310SPA1;Gudhjem Chair_F310;Xuất T02/08 - LTINV2776 -  LSX 65 ;11.1
+75;LTCGUD1F332SPA1;Gudhjem Chair_F332;Xuất bán T04/037 - 19082016GC - LSX 80;12.0
+76;LTCGUD1F333SP1;Gudhjem Chair_F333;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;11.5
+77;LTCGUD1F343APAP1;Gudhjem Chair_F343;Xuất bán T01/087 - LTINV58143147 - LSX 55;18.75
+78;LTCGUD1F404SP1;Gudhjem Chair_F404;Xuất bán T05/10- LTINV1280 ngày ETD 9/5/2016;12.15
+79;LTCIDS1F310S1WI01;Idskov Lounge Set_Armchair_F310_DAN;Xuất bán T03/096 - LTINV3841 - LSX 52;10.6
+80;LTCIDS1F310S1WI02;Idskov Lounge Set_Bench_F310_DAN;Xuất bán T03/096 - LTINV3841 - LSX 52;20.630000000000003
+81;LTCJAK1F278SP1;Jakarta Chair _F278;Xuất bán T03/076 - LTINV26944 - lsx 73;13.5
+82;LTCJAPLF253SC1;Japan Sofa Left_F253;Xuất bán T9/069 - 08062016-1- LSX 43;42.5
+83;LTCJAPLF268SC1;Japan Sofa Left_F268;Xuất T02/053-LACASAWAREHOUSE 3 (169872, 158103)-LSX 42;40.75
+84;LTCJAPMF268SC1;Japan Sofa Middle_F268;Xuất T02/053-LACASAWAREHOUSE 3 (169872, 158103)-LSX 42;40.75
+85;LTCJAPN253SC1;Japan Sofa Middle_F253;Xuất bán T9/069 - 08062016-1- LSX 43;42.5
+86;LTCJAPR253SC1;Japan Sofa Right_F253;Xuất bán T9/069 - 08062016-1- LSX 43;42.5
+87;LTCJAPRF268SC1;Japan Sofa Right_F268;Xuất T02/053-LACASAWAREHOUSE 3 (169872, 158103)-LSX 42;40.75
+88;LTCJUB1F210SP2;New Jubi Chair _F210;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 27/05/2016;0.0
+89;LTCJUL1F405SPK1;Jullerup Chair_F405;Xuất T02/07 - LTINV8725 -  LSX  54;25.75
+90;LTCKAL1F330SK1;Kalimantan Armless chair_F330;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;79.0
+91;LTCKAL1F330SK2;Kalimantan Ottoman Chair_F330;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;47.0
+92;LTCKALLF330SK1;Kalimantan Left Corner Chair_F330;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;93.0
+93;LTCKALRF330SK1;Kalimantan Right Corner Chair_F330;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;93.0
+94;LTCKIN1H224AC1;King Chair_H224;Xuất bán T01/101-030- LSX  46;69.0
+95;LTCKIN1H350AC1;King Chair_H350;Xuất T02/057-030- LSX 46;69.0
+96;LTCLAB1F310SK1;LT_ME53 (Labing Chair)_F310;Xuất bán T11/090 - LT-ME 53/010-1  - lsx 49;44.3
+97;LTCLAB1F343SK1;LT_ME53 (Labing Chair)_F343;Xuất bán T01/054 - 700-1 - LSX 49;44.3
+98;LTCLAB1H274SK1;Labing Chair(New Skive Chair)_H274;Xuất bán T05/33-LTINV6735  ngày ETD 19/5/2016;33.0
+99;LTCLAN1F310APA1;Lango chair_F310;Xuất bán T03/34 - 26826 - LSX 72;14.5
+100;LTCLEE2F405SPA1;Leeds Bench Black_F405;Xuất bán T01/085 - LTINV27183 - LSX 78;19.85
+101;LTCLET1H171SK1;Leticia Sofa 3 Seater_H171;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;160.4
+102;LTCLET1H171SK2;Leticia Armchair_H171;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;84.3
+103;LTCMAN1F310AP1;Manilla Chair_F310;Xuất bán T03/34 - 26826 - LSX 72;17.3
+104;LTCMAN1F343AP1;Mansan Chair F343;Xuất bán T05/05-24470  ngày ETD 15/5/2016;30.389999999999997
+105;LTCMAN2F243APA1;Mansan Bench_F243;Xuất bán T05/47- 24471 ngày ETD 31/05/2016;30.389999999999997
+106;LTCMID1F322AE1;Middle_F322;Xuất T02/04 -22250/7326- LSX 63;48.0
+107;LTCMOJ1F268SP1;Mojo Chair_F268;Xuất bán T01/093  - LACASAWAREHOUSE- LSX 42;16.0
+108;LTCMOJ1F310SP1;Mojo Chair_F310;Xuất bán T12/030 - BUHWOL WOLFSBURG  -LSX 42(PI: LT14216LC, LT14616LC, LT15316LC);16.0
+109;LTCNATOF332SCA1;Natsu Armchair_F332;Xuất bán T10/019 - 15062016  - LSX 48;18.0
+110;LTCNEL1H265ACA1;Nelson Adjustable Chair_H265;Xuất bán T04/02 - 083 - LSX 03;77.0
+111;LTCNELCH265AK1;Nelson Lounge set(Roma  goc)_H265;Xuất bán T01/078 - 044 - lsx 58;77.0
+112;LTCNEW1F310SCA1;Idskov Lounge Set_Armchair_F310;Xuất bán T01/016 - LTINV3667- lsx 52;10.6
+113;LTCNEW2F310SCA1;Idskov Lounge Set_Bench_F310;Xuất bán T01/016 - LTINV3667- lsx 52;40.67
+114;LTCNOV1F332SP1;Novotel Chair_F332;Xuất bán T10/019 - 15062016  - LSX 48;11.7
+115;LTCOCC1F310SCA1;Armchair Occasional Set_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;15.0
+116;LTCOCC2F310SCA1;Bench Occasional Set_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;48.0
+117;LTCOWE1F278APA1;OWEN STOL_F278;Xuất bán T03/062- LTINV26548 - LSX 71;18.2
+118;LTCPAL1F170SCA1;Palermo Dining Chair_F170;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;40.0
+119;LTCPAL1F170SK2;Palermo Rest Chair_F170;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;60.8
+120;LTCPALCF170SK1;Palermo Corner Chair_F170;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;74.02
+121;LTCPRI1F220SP1;Prisca Chair_F220;Xuất bán T12/102 -077-1 - LSX 39;15.3
+122;LTCPRI1F247SP1;Prisca Chair_F247;Xuất bán T01/076 - 111 - lsx 49;15.299999999999999
+123;LTCPRI1F268SPA1;Prisca Chair_F268;Xuất bán T01/022-SPIGROB-GROBWALLSTADT - LSX 42;16.1
+124;LTCPRI1F310SK1;Prisca Chair_F310;Xuất bán T01/028 - 067-1 - LSX 49;15.3
+125;LTCPRI1F343SP1;Prisca Chair_F343;Xuất bán T10/070- LT-ME 26/30 -  LSX 49;15.3
+126;LTCPRI1F403SPA1;Prisca Chair_F403;Xuất bán T01/074 - LTINV191406 - lsx 56;11.5
+127;LTCPRI2F243SK2;Prisca Bench_F243;Xuất bán T04/74 - 22032016-1- LSX 19;28.0
+128;LTCPRI2F310SK1;Prisca Bench_F310;Xuất bán T01/099  - LT-NO/1000260-1000261-1000264-1000263 - LSX 44 ;23.759999999999998
+129;LTCPRI2F343APA1;Prisca Bench_F343;Xuất bán T01/087 - LTINV58143147 - LSX 55;33.9
+130;LTCPRI2F403SPA1;Prisca Bench_F403;Xuất bán T01/073 - LTINV190966 - LSX 56;22.3
+131;LTCQUE1H274APEA1;Queen Chair_H274;Xuất bán T01/110 - 222250/7282 - LSX 47;41.230000000000004
+132;LTCRAN1F310SCK2;Ranfort Set_(Ghế 1 Chỗ)_F310;Xuất bán T01/070 - LTINV58143146-2 - LSX 55;32.5
+133;LTCRAN1F310SCK3;Ranfort Set_(Ghế 2 Chỗ)_F310;Xuất bán T01/070 - LTINV58143146-2 - LSX 55;60.0
+134;LTCRAN1F310SCK4;Ranfort Set_(Bàn)_F310;Xuất bán T01/070 - LTINV58143146-2 - LSX 55;60.0
+135;LTCREZ1F407SC1;REZE ArmChair (K/D)_F407;Xuất bán T05/26-57338 ngày ETD 16/5/2016;20.3
+136;LTCREZ1F409SC1;REZE ArmChair (K/D)_F409;Xuất bán T05/25-57334  ngày ETD 16/5/2016;20.3
+137;LTCS10042;Nệm ngồi Roma set;Xuất bán hàng mẫu -SAMPLE 06052016;0.0
+138;LTCS10081;Nệm ngồi Bali;Xuất T02/39 - LTINV26952(26946/2131120) - LSX 73;1.7
+139;LTCS10094;Nệm ngồi New Bork set;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 27/05/2016;0.0
+140;LTCS10115;Nệm ngồi Scout Double;Xuất bán nệm theo INVOICE ngày 18/8/2016;10.0
+141;LTCS10123;Nệm ngồi Scout dining chair;Xuất bán nệm theo INVOICE ngày 18/8/2016;4.0
+142;LTCS10124;Nệm ngồi Scout single lounge;Xuất bán nệm theo INVOICE ngày 18/8/2016;4.5
+143;LTCS10135;Nệm ngồi Angebot Set ;Xuất bán hàng mẫu -SAMPLE 06052016;0.0
+144;LTCS10155;Nệm Ngồi Idskov Lounge Set;Xuất bán T03/151 - LTINV3890 - LSX 54 ;0.0
+145;LTCS10179;Nệm Cushion 4 (Black);Xuất bán T04/19 -250791 - LSX 61;4.7
+146;LTCS10180;Nệm Cushion 4 (Grey );Xuất bán T04/19 -250791 - LSX 61;4.7
+147;LTCS10181;Nệm Cushion 5 (Black);Xuất bán T02/065-250788- LSX 61;2.38
+148;LTCS10182;Nệm Cushion 5 (Grey);Xuất bán T02/065-250788- LSX 61;2.38
+149;LTCS10183;Nệm Cushion 6 (Black);Xuất bán T02/064- 250789- LSX 61;4.83
+150;LTCS10184;Nệm Cushion 7 (Black);Xuất bán T02/099 - 250790 - LSX 61 ;7.35
+151;LTCS10185;Nệm Cushion 9 (Black);Xuất bán T02/064- 250789- LSX 61;4.7
+152;LTCS10186;Nệm Cushion 8 (Grey);Xuất bán T02/064- 250789- LSX 61;4.83
+153;LTCS10188;Nệm Cushion 8 (Black);Xuất bán T02/064- 250789- LSX 61;7.35
+154;LTCSAR1MIX3SK2;Sara Chair 3 Mau_MIX;Xuất bán T07/32 - LT10716COFA ngày ETD 1/08/2016;24.3
+155;LTCSAR1MIX7SK3;Sara Chair 7 Mau Chair_MIX;Xuất bán T07/32 - LT10716COFA ngày ETD 1/08/2016;24.3
+156;LTCSAR1R144SK1;Sara Chair KD in Green_R144;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;24.85
+157;LTCSAR1R144SK2;Sara Chair in Green_R144;Xuất tặng khách hàng theo phiếu yêu cầu xuất xưởng ngày 16.3.2017 ;0.0
+158;LTCSAR1R146SCK1;Sara Chair KD in Yellow_R146;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;24.85
+159;LTCSAR1R147SCK1;Sara Chair KD in Red_R147;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;24.85
+160;LTCSAR1R149SCK1;Sara Chair KD in Black_R149;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;24.85
+161;LTCSAR1R150SCK1;Sara Chair KD in Blue_R150;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;24.85
+162;LTCSAR1R157SCA1;Sara Chair in White_R157;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;24.85
+163;LTCSAR1R175SCK1;Sara Chair KD in Dark Blue_R175;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;24.85
+164;LTCSCO1A1FP01;Khung chữ X Scout Single _AL_KXS;Xuất cho khách mượn theo phiếu yêu cầu xuất xưởng ngày 2/8/2016, 10 ngày sau sẽ thu hồi lại, nếu không sẽ trừ tiền anh Võ Trọng Cường*(PKD);0.0
+165;LTCSCO1A2FP01;Khung chữ X Scout Dining Chair_AL_KXS;Xuất cho khách mượn theo phiếu yêu cầu xuất xưởng ngày 2/8/2016, 10 ngày sau sẽ thu hồi lại, nếu không sẽ trừ tiền anh Võ Trọng Cường*(PKD);0.0
+166;LTCSCO1A3FP01;Khung chữ X Scout Bar Chair_AL_KXS;Xuất cho khách mượn theo phiếu yêu cầu xuất xưởng ngày 2/8/2016, 10 ngày sau sẽ thu hồi lại, nếu không sẽ trừ tiền anh Võ Trọng Cường*(PKD);0.0
+167;LTCSCO1A4FP01;Khung chữ X Scout Double_AL_KXS;Xuất cho khách mượn theo phiếu yêu cầu xuất xưởng ngày 2/8/2016, 10 ngày sau sẽ thu hồi lại, nếu không sẽ trừ tiền anh Võ Trọng Cường*(PKD);0.0
+168;LTCSCO1R334A1WI02;Scout Single lounge_Mê_R334_DAN;Xuất phụ kiện đi kèm  theo LSX 28 bổ sung cho khách;0.0
+169;LTCSCO1R334A2WI02;Scout Dining Chair_Mê_R334_DAN;Xuất phụ kiện đi kèm  theo LSX 28 bổ sung cho khách;0.0
+170;LTCSCO1R334A3WI02;Scout Bar Chair_Mê_R334_DAN;Xuất phụ kiện đi kèm  theo LSX 28 bổ sung cho khách;0.0
+171;LTCSCO1R334AK1;Scout Single lounge_R334;Xuất bán T06/14-GLGP272 ngày ETD 11/7/2016;48.0
+172;LTCSCO1R334AK2;Scout Dining Chair_R334;Xuất bán T06/14-GLGP272 ngày ETD 11/7/2016;46.0
+173;LTCSCO1R334AK3;Scout Bar Chair_R334;Xuất bán T07/015- GLGS351 ngày ETD ngày 12/7/2016;21.0
+174;LTCSCO2R334A1WI02;Scout Double _Mê_R334_DAN;Xuất phụ kiện đi kèm  theo LSX 28 bổ sung cho khách;0.0
+175;LTCSCO2R334AK1;Scout Double _R334;Xuất bán T06/14-GLGP272 ngày ETD 11/7/2016;95.0
+176;LTCSEC1F310SCA1;Sectional Set_Armchair _F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;39.5
+177;LTCSEC3F310SCA1;Sectional Set_Sofa 3 Seater_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;70.0
+178;LTCSEO1F310AP1;Seoul (Bork Chair)_F310;Xuất bán T11/20- 25723 - LSX 53;22.25
+179;LTCSOS1F310SP1;Sosan Chair_F310;Xuất bán T01/098  - LT-NO/1000260-1000261-1000262 - LSX 44 ;30.59
+180;LTCSS1019;Mẫu Swatch Vải;Xuất mẫu gửi khách hàng theo phiếu yêu cầu xuất xưởng duyệt ngày 22/6/2016;0.0
+181;LTCSS1030;Mẫu nệm LT-ME55;Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 20/10/2016;0.0
+182;LTCSTE1F353SSP1;Steel Wicker Stackable Chair_F353;Xuất bán T11/079 - LTINV235375-2- lsx 60;16.9
+183;LTCSTE1F413SCA1;Steel Wicker Stackable Chair_F413;Xuất bán T01/119 - LTINV107151 - LSX 57;16.9
+184;LTCTAH1F009SK1;Tahiti Dining Chair_F009;Xuất bán T01/080 - LT18016COFA-  LSX 68;25.0
+185;LTCTAH1F009SKA1;Tahiti Arm Chair_F009;Xuất bán T01/079 - LT18016COFA-  LSX 68;34.0
+186;LTCTEN1F310SC1;Teneriffa Chair_F310;Xuất bán T01/100  - LT-NO/1000265-1000261-1000264-1000263 - lsx 44;18.81
+187;LTCTEN1F310SC2;Tenby Chair_F310;Xuất bán T01/051 - 069-2 - lsx 49;32.0
+188;LTCTEN1F403SPA1;Teneriffa Chair_F403;Xuất bán T01/072 - LTINV190966 - LSX 56;16.7
+189;LTCTHE1H224AC1;Thessaly Chair_H224;Xuất bán T10/050- 004 -  LSX 19;50.0
+190;LTCTOM1F332ACA1;Tom Dining ArmChair_F332;Xuất bán T10/019 - 15062016  - LSX 48;36.0
+191;LTCTOM1F332ACA2;Tom Dining W/O Arms_F332;Xuất bán T10/019 - 15062016  - LSX 48;17.5
+192;LTCTON1F310SP1;Tona Chair_F310;Xuất bán T03/0102 - 040 - lsx 49;20.299999999999997
+193;LTCTON1F332APA1;Tona Chair_F332;Xuất bán T10/019 - 15062016  - LSX 48;21.0
+194;LTCTON1F343APAP1;Tona Chair_F343;Xuất bán T01/028 - 067-1 - LSX 49;20.3
+195;LTCTON1H224AP1;Tona Chair_H224;Xuất bán T05/19-266-F  ngày ETD 14/5/2016;0.0
+196;LTCTON1H224APA1;Liverpool Stacking Chair_F224;Xuất T02/38 - 028 - LSX 46;31.0
+197;LTCTON1H279AP2;Tona Dining Chair_H279;Xuất bán T03/142 - 10112016TN- LSX 85;37.8
+198;LTCVIS1F229SP1;Visby chair F229;Xuất bán T01/129 - HEINSTAD, BRAFREI, OSTWIT1 - LSX 42;12.299999999999999
+199;LTCVIS1F268SP1;Visby chair F268;Xuất bán T01/022-SPIGROB-GROBWALLSTADT - LSX 42;12.299999999999999
+200;LTCVIS1F310SP1;Visby chair F310;Xuất bán T01/047 - LUDWIE - WIEN2 - LSX 42;11.9
+201;LTCWIC1F310SC1;Wicky Chair_F310;Xuất bán T01/043 - 069 - lsx 49;23.5
+202;LTFSTA1H274SK1;Stand Frame H274;Xuất bán T05/30-LT-JOHANRO29012016  ngày ETD 15/5/2016;4.0
+203;LTLDIN11160ACK1;Dinning Sofa Set_Left_F1160;Xuất T02/053-LACASAWAREHOUSE 3 (169872, 158103)-LSX 42;74.0
+204;LTLSEC3F310SCA1;Sectional Set_Lounger_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;70.0
+205;LTMDIN21160ACA1;Dinning Sofa Set_Middle 2 seater w/o armrest_F1160;Xuất T02/053-LACASAWAREHOUSE 3 (169872, 158103)-LSX 42;74.0
+206;LTMDIN21160ACA2;Dinning Sofa Set_Middle 2 seater w 1 armrest_F1160;Xuất T02/053-LACASAWAREHOUSE 3 (169872, 158103)-LSX 42;74.0
+207;LTODIN11160ACA1;Dinning Sofa Set_Ottoman_F1160;Xuất T02/053-LACASAWAREHOUSE 3 (169872, 158103)-LSX 42;74.0
+208;LTPBRO1H274SK1;B-Round Planter_H274;Xuất bán T05/30-LT-JOHANRO29012016  ngày ETD 15/5/2016;12.5
+209;LTPHEN1H274SK1;Henrik Balcony Planter_H274;Xuất bán T05/30-LT-JOHANRO29012016  ngày ETD 15/5/2016;6.1000000000000005
+210;LTPLON1H274SK1;Long Planter_H274;Xuất bán T05/30-LT-JOHANRO29012016  ngày ETD 15/5/2016;7.5
+211;LTPPEK1H274SK1;Peking Planter_H274;Xuất bán T05/30-LT-JOHANRO29012016  ngày ETD 15/5/2016;24.5
+212;LTPSQU3H274SK1;Set 3 Square Planter_H274;Xuất bán T05/30-LT-JOHANRO29012016  ngày ETD 15/5/2016;7.0
+213;LTPSRO1H274SK1;S-Round Planter_H274;Xuất bán T05/30-LT-JOHANRO29012016  ngày ETD 15/5/2016;7.1
+214;LTRDIN11160ACK1;Dinning Sofa Set_Right_F1160;Xuất T02/053-LACASAWAREHOUSE 3 (169872, 158103)-LSX 42;74.0
+215;LTSAM00003WI;Mẫu Scout Bar Chair;Xuất mẫu cho khách hàng theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 24/5/2016;0.0
+216;LTSAM00032WI;Mẫu Gudhjem chair;Xuất mẫu cho khách hàng theo phiếu yêu cầu xuất xưởng ngày 12/7/2016,khách hàng chịu tiền phí+90% tiền mẫu;11.0
+217;LTSAM00033WI;Mẫu Bork chair;Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 5/12/2016 (MẪU PHÁT TRIỂN, không thu tiền);0.0
+218;LTSAM00035WI;Mẫu Skive chair_LSX16011;Xuất hàng mẫu cho khác hàng mượn đến 5/7/2016 khách sẽ sẽ trả lại;0.0
+219;LTSAM00037WI;Mẫu Bogense bench_LSX16011;Xuất hàng mẫu cho khác hàng mượn đến 5/7/2016 khách sẽ sẽ trả lại;0.0
+220;LTSAM00048WI;Mẫu Gudhjem bench;Xuất mẫu gửi cho khách hàng theo phiếu ngày  26/7/2016,cước vận chuyển khách hàng chịu ;0.0
+221;LTSAM00050WI;Mẫu LT-ME26;Xuất mẫu theo phiếu yêu cầu xuất xửơng ngày 18.4.2017- mẫu không thu tiền;0.0
+222;LTSAM00053WI;Mẫu LT-ME25;Xuất mẫu theo phiếu yêu cầu xuất xửơng ngày 18.4.2017- mẫu không thu tiền;0.0
+223;LTSAM00054WI;Mẫu LT-ME23;Xuất  mẫu cho khách hàng theo phiếu xuất xưởng ngày 25/10/2016,Gửi mẫu đối chứng không thu hồi, khách hàng chịu cước;0.0
+224;LTSAM00064WI;Mẫu Prisca bench_F310;Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 20/10/2016;0.0
+225;LTSAM00068WI;Mẫu LT-ME53 (Labing chair);Xuất mẫu theo phiếu yêu cầu xuất xửơng ngày 18.4.2017- mẫu không thu tiền;0.0
+226;LTSAM00075WI;Mẫu LT-ME29;Xuất chở mẫu seal mừa 2016 đi TUV update test theo phiếu yêu câu xuất xưỏng nagỳ 20.4.2017;0.0
+227;LTSAM00079WI;Mẫu LT-ME54 (Jullerup chair);Xuất  mẫu cho khách hàng theo phiếu xuất xưởng ngày 25/10/2016,Gửi mẫu đối chứng không thu hồi, khách hàng chịu cước;0.0
+228;LTSAM00089WI;Mẫu MARA CHAIR_LSX16031;Xuất bán hàng mẫu -SAMPLE 06052016;11.0
+229;LTSAM00090WI;Mẫu GUDHJEM CHAIR_LSX16031;Xuất bán hàng mẫu -SAMPLE 06052016;13.0
+230;LTSAM00091WI;Mẫu BORK CHAIR_LSX16031;Xuất bán hàng mẫu -SAMPLE 06052016;17.0
+231;LTSAM00092WI;Mẫu Angebot Garden set (K/D)_LSX16031;Xuất bán hàng mẫu -SAMPLE 06052016;132.0
+232;LTSAM00093WI;Mẫu Sectional roma set (K/D)_LSX16031;Xuất bán hàng mẫu -SAMPLE 06052016;179.0
+233;LTSAM00097WI;Mẫu Swatch Dây;Xuất mẫu gửi khách hàng theo phiếu yêu cầu xuất xưởng duyệt ngày 22/6/2016;0.0
+234;LTSAM00098WI;Mẫu Rest Chair H274_LSX16035;Xuất bán T05/18-7125  ngày ETD 14/5/2016;74.0
+235;LTSAM00099WI;Mẫu Rest Chair F322_LSX16035;Xuất bán T05/18-7125  ngày ETD 14/5/2016;78.0
+236;LTSAM00102WI;Mẫu Marid chair_ LSX16028;Xuất hàng chào hàng LSXM 28 theo phiếu yêu cầu xuất xưởng được duyệt ngày 11/5/2016 mẫu không thu tiền;0.0
+237;LTSAM00103WI;Mẫu Davi chair_ LSX16028;Xuất hàng chào hàng LSXM 28 theo phiếu yêu cầu xuất xưởng được duyệt ngày 11/5/2016 mẫu không thu tiền;0.0
+238;LTSAM00104WI;Mẫu Fulham sofa 3 seaters chair_ LSX16028;Xuất hàng chào hàng LSXM 28 theo phiếu yêu cầu xuất xưởng được duyệt ngày 11/5/2016 mẫu không thu tiền;0.0
+239;LTSAM00105WI;Mẫu Roma sofa set_ LSX16028;Xuất hàng chào hàng LSXM 28 theo phiếu yêu cầu xuất xưởng được duyệt ngày 11/5/2016 mẫu không thu tiền;0.0
+240;LTSAM00116WI;Mẫu LTGL-SS17-11_LSX16036;Xuất hàng mẫu chào hàng- LSXM 44+36 theo phiếu yêu cầu xuất xưởng được duyệt ngày 13/5/2016 mẫu không thu tiền;0.0
+241;LTSAM00117WI;Mẫu Bella set_LSX16036;Xuất hàng mẫu chào hàng- LSXM 44+36 theo phiếu yêu cầu xuất xưởng được duyệt ngày 13/5/2016 mẫu không thu tiền;0.0
+242;LTSAM00118WI;Mẫu Thessaly set_LSX16044;Xuất hàng mẫu chào hàng- LSXM 44+36 theo phiếu yêu cầu xuất xưởng được duyệt ngày 13/5/2016 mẫu không thu tiền;0.0
+243;LTSAM00119WI;Mẫu Obi set_LSX16044;Xuất hàng mẫu chào hàng- LSXM 44+36 theo phiếu yêu cầu xuất xưởng được duyệt ngày 13/5/2016 mẫu không thu tiền;0.0
+244;LTSAM00120WI;Mẫu Visbi Chair_LSX16047;Xuất hàng mẫu chào hàng- LSXM 47 theo phiếu yêu cầu xuất xưởng được duyệt ngày 14/5/2016 mẫu không thu tiền;0.0
+245;LTSAM00121WI;Mẫu Sectional Roma Set_DAN;Xuất hàng mẫu chào hàng- LSXM 47 theo phiếu yêu cầu xuất xưởng được duyệt ngày 14/5/2016 mẫu không thu tiền;0.0
+246;LTSAM00122WI;Mẫu Lamony Set;Xuất bán mẫu cho khách hàng theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 14/5/2016;382.9
+247;LTSAM00123WI;Mẫu Linki Chair;Xuất bán mẫu cho khách hàng theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 14/5/2016;30.5
+248;LTSAM00124WI;Mẫu LT-ME50 dây F210_LSX16042;Xuất hàng mẫu đi text theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 16/05/2016;0.0
+249;LTSAM00131WI;Mẫu New Romantic Chair;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 25/05/2016;0.0
+250;LTSAM00132WI;Mẫu New Sageby table;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 25/05/2016;0.0
+251;LTSAM00133WI;Mẫu New Bork Set;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 25/05/2016;0.0
+252;LTSAM00134WI;Mẫu Chaise Longue;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 25/05/2016;0.0
+253;LTSAM00135WI;Mẫu New Chair W/O ArmRest;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 25/05/2016;0.0
+254;LTSAM00136WI;Mẫu 3 Seater sofa Single;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 25/05/2016;0.0
+255;LTSAM00137WI;Mẫu Round Table;Xuất mẫu cho khách hàng mượn đến ngày 5/6/2016 trả mẫu theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 25/05/2016;0.0
+256;LTSAM00140WI;Mẫu Mara Chair LSXM16034;Xuất bán hàng theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 30/05/2016, khách hàng chịu tiền test;0.0
+257;LTSAM00141WI;Mẫu Rest table T59 dây F333 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;50.0
+258;LTSAM00142WI;Mẫu Rest table T59 dây F332 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;50.0
+259;LTSAM00143WI;Mẫu Round table_DAN;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;50.0
+260;LTSAM00144WI;Mẫu Round table T62-2 dây F333 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;32.0
+261;LTSAM00145WI;Mẫu Round table T62-3 dây F332 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;33.0
+262;LTSAM00146WI;Mẫu Gudhjem Chair dây F333 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;11.5
+263;LTSAM00147WI;Mẫu Gudhjem Chair dây F332 LSXM16034;Xuất bán hàng theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 30/05/2016, khách hàng chịu tiền test;0.0
+264;LTSAM00148WI;Mẫu Section Roma Set S70_F333;Xuất bán hàng theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 30/05/2016, khách hàng chịu tiền test;0.0
+265;LTSAM00149WI;Mẫu Recliner Chair R75 _F333 LSXM16034;Xuất bán hàng theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 30/05/2016, khách hàng chịu tiền test;0.0
+266;LTSAM00150WI;Mẫu Square Table T11 _F333 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;22.0
+267;LTSAM00152WI;Mẫu Single sofa S70_F333 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;48.0
+268;LTSAM00153WI;Mẫu Footrest S70_F333 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;21.0
+269;LTSAM00154WI;Mẫu 2 seater sofa S70_F333 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;67.0
+270;LTSAM00155WI;Mẫu 3 seater sofa S70_F333 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;87.0
+271;LTSAM00156WI;Mẫu Coffee table S70_F333 LSXM16034;Xuất hàng+mẫu cho khách hàng , khách hàng chịu tiền test, ngày ETD 5/6/2016;24.0
+272;LTSAM00167WI;Mẫu Corner Sofa Set_Left;Xuất hàng mẫu cho khác hàng mượn đến 5/7/2016 khách sẽ sẽ trả lại;0.0
+273;LTSAM00168WI;Mẫu Corner Sofa Set_Right;Xuất hàng mẫu cho khác hàng mượn đến 5/7/2016 khách sẽ sẽ trả lại;0.0
+274;LTSAM00169WI;Mẫu Corner Sofa Set_Middle;Xuất hàng mẫu cho khác hàng mượn đến 5/7/2016 khách sẽ sẽ trả lại;0.0
+275;LTSAM00170WI;Mẫu Corner Sofa Set_Corner;Xuất hàng mẫu cho khác hàng mượn đến 5/7/2016 khách sẽ sẽ trả lại;0.0
+276;LTSAM00171WI;Mẫu Corner Sofa Set_Table_FE;Xuất hàng mẫu cho khác hàng mượn đến 5/7/2016 khách sẽ sẽ trả lại;0.0
+277;LTSAM00172WI;Mẫu Corner Sofa Set_ArmChair;Xuất hàng mẫu cho khác hàng mượn đến 5/7/2016 khách sẽ sẽ trả lại;0.0
+278;LTSAM00175WI;Mẫu Polden Chair;Xuất hàng mẫu cho khác hàng mượn đến 5/7/2016 khách sẽ sẽ trả lại;0.0
+279;LTSAM00177WI;Mẫu Bork Chair_ F310;Xuất mẫu cho khách hàng theo phiếu yêu cầu xuất xưởng ngày 12/7/2016,khách hàng chịu tiền phí+90% tiền mẫu;17.0
+280;LTSAM00182WI;Mẫu Gartengarnitur Set_Table;Xuất hàng mẫu đi text theo phiếu yêu cầu xuất xưởng đã được duyệt ngày 7/6/2016;0.0
+281;LTSAM00183WI;Mẫu Gudhjem Chair (Nhôm);Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 2/7/2016, mẫu không thu tiền, khách hàng chịu tiền ;0.0
+282;LTSAM00184WI;Mẫu Gudhjem Chair dây F310;Xuất hàng theo phiếu yêu cầu xuất xưởng ngày 6/10/2016;0.0
+283;LTSAM00185WI;Mẫu Relax chair_dây F310;Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 2/7/2016, mẫu không thu tiền, khách hàng chịu tiền ;0.0
+284;LTSAM00186WI;Mẫu Side Table Dây F310;Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 2/7/2016, mẫu không thu tiền, khách hàng chịu tiền ;0.0
+285;LTSAM00187WI;Mẫu Torino Set F310;Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 2/7/2016, mẫu không thu tiền, khách hàng chịu tiền ;0.0
+286;LTSAM00188WI;Mẫu 3 Seaters sofa;Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 2/7/2016, mẫu không thu tiền, khách hàng chịu tiền ;0.0
+287;LTSAM00189WI;Mẫu New Jubi Chair_ 4 chỉ đen;Xuất mẫu cho khác hàng theo phiếu yêu cầu duyệt xuất xưởng ngày 4/7/2016, cước vận chuyển khách hàng chịu;0.0
+288;LTSAM00190WI;Mẫu New Jubi Chair_ 4 chỉ nâu;Xuất mẫu cho khác hàng theo phiếu yêu cầu duyệt xuất xưởng ngày 4/7/2016, cước vận chuyển khách hàng chịu;0.0
+289;LTSAM00195WI;Mẫu Copenhagen Chair;Xuất mẫu cho khác hàng theo phiếu yêu cầu xuất xưởng ngày 12/7/2016, nếu không có đơn hàng thì khách sẽ chịu tiền mẫu;51.0
+290;LTSAM00196WI;Mẫu Corner Sofa Set;Xuất mẫu cho khác hàng theo phiếu yêu cầu xuất xưởng ngày 12/7/2016, nếu không có đơn hàng thì khách sẽ chịu tiền mẫu;307.0
+291;LTSAM00198WI;Mẫu Art 86800894 Chair;Xuất mẫu cho khác hàng theo phiếu yêu cầu xuất xưởng ngày 12/7/2016, nếu không có đơn hàng thì khách sẽ chịu tiền mẫu;51.0
+292;LTSAM00199WI;Mẫu Copenhagen Set;Xuất mẫu cho khác hàng theo phiếu yêu cầu xuất xưởng ngày 12/7/2016, nếu không có đơn hàng thì khách sẽ chịu tiền mẫu;263.0
+293;LTSAM00200WI;Mẫu Sageby Dining Set;Xuất mẫu cho khách hàng theo phiếu yêu cầu xuất xưởng ngày 12/7/2016,khách hàng chịu tiền phí+90% tiền mẫu;198.0
+294;LTSAM00202WI;Mẫu LT-ME60;Xuất  mẫu cho khách hàng theo phiếu xuất xưởng ngày 25/10/2016,Gửi mẫu đối chứng không thu hồi, khách hàng chịu cước;0.0
+295;LTSAM00203WI;Mẫu Jersey sofa;Xuất mẫu gửi cho khách hàng theo phiếu ngày  26/7/2016,cước vận chuyển khách hàng chịu ;0.0
+296;LTSAM00204WI;Mẫu Bari sofa;Xuất mẫu gửi cho khách hàng theo phiếu ngày  26/7/2016,cước vận chuyển khách hàng chịu ;0.0
+297;LTSAM00217WI;Mẫu Obi Chair;Xuất mẫu đi test theo INVOICE ngày 12/7/2016;0.0
+298;LTSAM00218WI;Mẫu Square Table _F310;Xuất mẫu cho khách hàng  đi test theo phiếu yêu cầu xuất xưởng ngày 20/8/2016,cước vận chuyển khách hàng chịu;0.0
+299;LTSAM00219WI;Mẫu Rect Table;Xuất mẫu cho khách hàng  đi test theo phiếu yêu cầu xuất xưởng ngày 20/8/2016,cước vận chuyển khách hàng chịu;0.0
+300;LTSAM00220WI;Mẫu Prisca Chair _F310;Xuất mẫu cho khách hàng  đi test theo phiếu yêu cầu xuất xưởng ngày 20/8/2016,cước vận chuyển khách hàng chịu;0.0
+301;LTSAM00221WI;Mẫu Sosan NewGas Chair _F310;Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 20/10/2016;0.0
+302;LTSAM00222WI;Mẫu Teneriffa Chair _F310;Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 20/10/2016;0.0
+303;LTSAM00228WI;Mẫu ARS Table;Xuất mẫu đi test lần 2 theo phiếu yêu cầu xuất xưởng ngày 12/9/2016\;0.0
+304;LTSAM00229WI;Mẫu Odda Table;Xuất mẫu đối chứng đi test theo phiếu yêu cầu xuất xưởng nagyf 298/2016;0.0
+305;LTSAM00230WI;Mẫu LT-ME51;Xuất  mẫu cho khách hàng theo phiếu xuất xưởng ngày 25/10/2016,Gửi mẫu đối chứng không thu hồi, khách hàng chịu cước;0.0
+306;LTSAM00243WI;Mẫu Gudhjem Chair_F310; Xuất mẫu đi test theo phiếu yêu cầu xuất xưởng ngày 22/11/2016- Khách hàng chịu tiền test mục 2+3;0.0
+307;LTSAM00244WI;Mẫu Idskod Armchair;Xuất hàng theo phiếu yêu cầu xuất xưởng ngày 6/10/2016;0.0
+308;LTSAM00245WI;Mẫu Idskod Sofa 2 Seater;Xuất hàng theo phiếu yêu cầu xuất xưởng ngày 6/10/2016;0.0
+309;LTSAM00250WI;Mẫu Japan Set_F268;Xuất hàng mẫu theo INVOICE  ngày 14/10/2015, mẫu không thu tiền;0.0
+310;LTSAM00251WI;Mẫu New Bork Loungeset_F314;Xuất hàng mẫu theo INVOICE  ngày 14/10/2015, mẫu không thu tiền;0.0
+311;LTSAM00252WI;Mẫu Balkony Set;Xuất hàng mẫu theo INVOICE  ngày 14/10/2015, mẫu không thu tiền;0.0
+312;LTSAM00254WI;Mẫu Rect Table_F310;Xuất mẫu theo phiếu yêu cầu xuất xưởng ngày 20/10/2016;0.0
+313;LTSAM00272WI;Mẫu LT-ME41 ( Round table )_F343;Xuất chở mẫu seal mừa 2016 đi TUV update test theo phiếu yêu câu xuất xưỏng nagỳ 20.4.2017;0.0
+314;LTSAM00294WI;Mẫu Natsu 2 Seater_F332;Xuất mẫu test cho khách hàng theo phiếu yêu cầu  xuất xưởng ngày 18/1/2016-  khách hàng chịu tiền test;0.0
+315;LTSAM00298WI;Mẫu Relax Sunlounger_F332;Xuất mẫu test cho khách hàng theo phiếu yêu cầu  xuất xưởng ngày 18/1/2016-  khách hàng chịu tiền test;0.0
+316;LTSAM00302WI;Mẫu LT-ME 74;Xuất mẫu  theo phiếu yêu cầu xuất xưởng ngày 20/1/2016- mẫu không thu tiền;0.0
+317;LTSAM00303WI;Mẫu LT-ME 75;Xuất mẫu  theo phiếu yêu cầu xuất xưởng ngày 20/1/2016- mẫu không thu tiền;0.0
+318;LTSAM00338WI;Mẫu Round Table_F1160;XUẤT BÁN HÀNG MÃU- LACASAWAREHOUSE 4;95.0
+319;LTSAM00339WI;Mẫu Copenhagen Chair_H224;XUẤT BÁN HÀNG MÃU- LACASAWAREHOUSE 4;53.0
+320;LTSAM00341WI;Mẫu Bistro Chair_F310;XUẤT BÁN HÀNG MÃU- LACASAWAREHOUSE 4;12.9
+321;LTSAM00343WI;Mẫu Steel Stackable Armchair_F413;XUẤT BÁN HÀNG MÃU- LACASAWAREHOUSE 4;19.9
+322;LTSAM00346WI;Mẫu Q7 Chair_H279;XUẤT BÁN HÀNG MÃU- LACASAWAREHOUSE 4;52.0
+323;LTSAM00352WI;Mẫu Balkon Set_F401;XUẤT BÁN HÀNG MÃU- LACASAWAREHOUSE 4;0.0
+324;LTSAM00353WI;Mẫu Torino Set_F268;XUẤT BÁN HÀNG MÃU- LACASAWAREHOUSE 4;183.0
+325;LTSAM00354WI;Mẫu Berga Set;Xuất bán hàng mẫu- LSX mẫu 103- HGS17317785;100.0
+326;LTSAM00355WI;Mẫu Alessa Dining Table;Xuất bán hàng mẫu- LSX mẫu 103- HGS17317785;110.0
+327;LTSAM00356WI;Mẫu Kairo Lounge Set;Xuất bán hàng mẫu- LSX mẫu 103- HGS17317785;195.0
+328;LTSAM00357WI;Mẫu Kairo Stacking Chair;Xuất bán hàng mẫu- LSX mẫu 103- HGS17317785;12.9
+329;LTSAM00358WI;Mẫu Tunis Dining Chair;Xuất bán hàng mẫu- LSX mẫu 103- HGS17317785;19.9
+330;LTSAM00359WI;Mẫu Mila Move Chair;Xuất bán hàng mẫu- LSX mẫu 103- HGS17317785;35.0
+331;LTSAM00391WI;Mẫu Prisca Bench K/D_H085;Xuất mẫu đối chứng gửi khách hàng kèm theo cont ngày 28.3.2017;0.0
+332;LTSAM00392WI;Mẫu Prisca Bench K/D_Dây 10 chỉ nâu;Xuất mẫu đối chứng gửi khách hàng kèm theo cont ngày 28.3.2017;0.0
+333;LTSAM00393WI;Mẫu Muskoka Armchair_F310;Xuất mẫu đi đối chứng theo phiếu yêu cầu xuất xưỏng ngày 13.4.2017-;0.0
+334;LTSAM00395WI;Mẫu Cavalino Armchair_F314;Xuất trả mẫu cho khách hàng theo phiếu yêu cầu xuất xửong ngày 24.3.2017;0.0
+335;LTSAM00405WI;Mẫu Roma Set_Left Armchair_H224;Xuất mẫu đi đối chứng theo phiếu yêu cầu xuất xưỏng ngày 13.4.2017-;0.0
+336;LTSAM00406WI;Mẫu Roma Set_Right Armchair_H224;Xuất mẫu đi đối chứng theo phiếu yêu cầu xuất xưỏng ngày 13.4.2017-;0.0
+337;LTSAM00407WI;Mẫu Roma Set_Armchair_H224;Xuất mẫu đi đối chứng theo phiếu yêu cầu xuất xưỏng ngày 13.4.2017-;0.0
+338;LTSAM00408WI;Mẫu Roma Set_Corner Chair_H224;Xuất mẫu đi đối chứng theo phiếu yêu cầu xuất xưỏng ngày 13.4.2017-;0.0
+339;LTSAM00409WI;Mẫu Roma Set_Table_H224;Xuất mẫu đi đối chứng theo phiếu yêu cầu xuất xưỏng ngày 13.4.2017-;0.0
+340;LTSAM00428WI;Mẫu Planter 4 chỉ đen (Lớn);Xuất mẫu đi duyệt khách hàng theo phiếu yêu cầu xuất xửong ngày 8/4/2017;0.0
+341;LTSAM00429WI;Mẫu Planter 4 chỉ đen (Nhỏ);Xuất mẫu đi duyệt khách hàng theo phiếu yêu cầu xuất xửong ngày 8/4/2017;0.0
+342;LTSAM00430WI;Mẫu Planter 2 chỉ xám (Lớn);Xuất mẫu đi duyệt khách hàng theo phiếu yêu cầu xuất xửong ngày 8/4/2017;0.0
+343;LTSAM00431WI;Mẫu Planter 2 chỉ xám (Nhỏ);Xuất mẫu đi duyệt khách hàng theo phiếu yêu cầu xuất xửong ngày 8/4/2017;0.0
+344;LTSAM00432WI;Mẫu Planter 2 chỉ natural (Lớn);Xuất mẫu đi duyệt khách hàng theo phiếu yêu cầu xuất xửong ngày 8/4/2017;0.0
+345;LTSAM00433WI;Mẫu Planter 2 chỉ natural (Nhỏ);Xuất mẫu đi duyệt khách hàng theo phiếu yêu cầu xuất xửong ngày 8/4/2017;0.0
+346;LTSAM00435WI;Mẫu Atlantie Chair;Xuất mẫu  đi đối chứng cho khách hàng theo phiếu yêu cầu xuất xưỏng ngày 15.4.2017;0.0
+347;LTSARSBF332ACA1;Arsenal Long Stool _F332;Xuất bán T10/019 - 15062016  - LSX 48;56.0
+348;LTSARSCF332ACA1;Arsenal Central Corner Sofa_F332;Xuất bán T10/019 - 15062016  - LSX 48;56.0
+349;LTSARSHF332ACA1;Arsenal Small Stool_F332;Xuất bán T10/019 - 15062016  - LSX 48;25.0
+350;LTSARSLF332ACA1;Arsenal Left Corner Sofa_F332;Xuất bán T10/019 - 15062016  - LSX 48;56.0
+351;LTSARSRF332ACA1;Arsenal Right Corner Sofa_F332;Xuất bán T10/019 - 15062016  - LSX 48;56.0
+352;LTSBOR1F403SCA1;Bork Set_Armchair_F403;Xuất bán T03/159 - 2832 - LSX 81;17.5
+353;LTSBOR2F403SCA1;Bork Set_ Sofa 2 Seater_F403;Xuất bán T03/159 - 2832 - LSX 81;35.0
+354;LTSCER1F263SK1;Cerdena Living set (sofa)_F263;Xuất bán T05/31-LT8016COFA-1  ngày ETD 18/5/2016;229.9
+355;LTSCER1F264SCA1;Cerdena Armchair_F264;Xuất bán T01/046 - LT0417CLFA - LSX 66;52.66
+356;LTSCER2F264SCA1;Cerdena Sofa 2 Seater_F264;Xuất bán T03/169 - LT4417CLFA - LSX 83;70.0
+357;LTSCER3F264SCA1;Cerdena Sofa 3 Seater_F264;Xuất bán T01/046 - LT0417CLFA - LSX 66;84.11
+358;LTSCHE1H224AK1;Chelsea corner sofa corner_H224;Xuất bán T03/0105 - 006 - lLSX 19;102.5
+359;LTSCHE2H224AK1;Chelsea corner sofa 2 seater_H224;Xuất bán T03/0105 - 006 - lLSX 19;102.5
+360;LTSCHE3H224AK1;Chelsea corner sofa 3 seater_H224;Xuất bán T03/0105 - 006 - lLSX 19;102.5
+361;LTSCOR1H374SCA1;Corner Sofa Set_ArmChair_H374;Xuất bán T01/122 - DYKEI - LSX 38;53.0
+362;LTSCORC1160ACA1;Corner Sofa Set_Corner Chair_F1160;Xuất bán T01/090 - OSTWIT1 - LSX 42 ;69.4
+363;LTSCORCH374SCA1;Corner Sofa Set_Corner_H374;Xuất bán T01/122 - DYKEI - LSX 38;53.0
+364;LTSCORL1160ACA1;Corner Sofa Set_Left Chair_F1160;Xuất T02/053-LACASAWAREHOUSE 4 (148058, 155560, 158090, 158103)- LSX 42;86.75
+365;LTSCORLH374SCA1;Corner Sofa Set_Left_H374;Xuất bán T01/122 - DYKEI - LSX 38;53.0
+366;LTSCORM1160ACA1;Corner Sofa Set_Middle Chair_F1160;Xuất T02/053-LACASAWAREHOUSE 4 (148058, 155560, 158090, 158103)- LSX 42;86.75
+367;LTSCORMH374SCA1;Corner Sofa Set_Middle_H374;Xuất bán T01/122 - DYKEI - LSX 38;53.0
+368;LTSCORR1160ACA1;Corner Sofa Set_Right Chair_F1160;Xuất T02/053-LACASAWAREHOUSE 4 (148058, 155560, 158090, 158103)- LSX 42;86.75
+369;LTSCORRH374SCA1;Corner Sofa Set_Right_H374;Xuất bán T01/122 - DYKEI - LSX 38;53.0
+370;LTSDIA1F268S1WI;Diana Footrest_F268_DAN;Xuất bán T01/042 - WANST - STRAUBING - LSX 42;15.5
+371;LTSDIA1F268SC1;Diana Footres_F268;Xuất bán T01/022-SPIGROB-GROBWALLSTADT - LSX 42;15.5
+372;LTSDYL1H224ACA1;Dylano Lounge set (Roma đơn)_H224;Xuất bán T02/076-019- LSX 46;77.0
+373;LTSDYLCH224ACA1;Dylano Lounge set (Roma góc)_H224;Xuất bán T02/076-019- LSX 46;77.0
+374;LTSDYLLH224ACA1;Dylano Lounge set (Roma trái)_H224;Xuất bán T02/076-019- LSX 46;77.0
+375;LTSDYLRH224ACA1;Dylano Lounge set (Roma phải)_H224;Xuất bán T02/076-019- LSX 46;77.0
+376;LTSETHCF403SCA1;Ethan Couch Set With Table_Corner_F403;Xuất bán T03/159 - 2832 - LSX 81;81.25
+377;LTSETHLF403SCA1;Ethan Couch Set With Table_ Left_F403;Xuất bán T03/159 - 2832 - LSX 81;81.25
+378;LTSETHRF403SCA1;Ethan Couch Set With Table_Right_F403;Xuất bán T03/159 - 2832 - LSX 81;81.25
+379;LTSNAT2F332SCA1;Natsu 2 Seats Sofa_F332;Xuất bán T10/019 - 15062016  - LSX 48;17.0
+380;LTSNEL1H265ACA1;Nelson Lounge set(Roma don)_H265;Xuất bán T01/078 - 044 - lsx 58;77.0
+381;LTSNELCH265ACA1;Nelson Lounge set(Corner Chair)_H265;Xuất bán T03/147 - LTINV282- LSX 02;77.0
+382;LTSNELLH265ACA1;Nelson Lounge set(Roma trai)_H265;Xuất bán T01/078 - 044 - lsx 58;77.0
+383;LTSNELRH265ACA1;Nelson Lounge set(Roma phai)_H265;Xuất bán T01/078 - 044 - lsx 58;77.0
+384;LTSNEW1F253S1WI;New Bork Set_Arm Chair_F253_DAN;Xuất bán T04/31 -BOR11072016 - LSX 45;15.0
+385;LTSNEW1F310SCA1;New bork loungeset_Armchair_F310;Xuất bán T01/104 - 250228 - lsx 59;13.5
+386;LTSNEW2F253S1WI;New Bork Set_Sofa 2 Seater_F253_DAN;Xuất bán T04/31 -BOR11072016 - LSX 45;30.0
+387;LTSNEW2F310SCA1;New bork loungeset_2 Seater_F310;Xuất bán T01/104 - 250228 - lsx 59;26.0
+388;LTSOBA2H270SK1;Obama Sofa 2 Seater_H270;Xuất T02/052-247- LSX 19;100.0
+389;LTSOBA3H270SK1;Obama Sofa 3 Seater_H270;Xuất T02/052-247- LSX 19;150.0
+390;LTSPAL1F170SCA1;Palermo Armchair_F170;Xuất bán T03/114 -LT1917CLFA - LSX 79;101.37
+391;LTSPAL1F170SK1;Palermo Ottoman_F170;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;39.25
+392;LTSPAL1F170SK2;Palermo Stool_F170;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;48.53
+393;LTSPAL2F274ACA1;Palma 2 Seater_F274;Xuất bán T01/110 - 222250/7282 - LSX 47;75.0
+394;LTSPAL2F322ACA1;Palma 2 Seater_F322;Xuất bán T01/111 - 222250/7326 LSX 63;90.0
+395;LTSPAL3F170SCA1;Palermo Sofa 3 Seater_F170;Xuất bán T03/114 -LT1917CLFA - LSX 79;199.51
+396;LTSPAL3F274ACA1;Palma 3 Seater_F274;Xuất bán T01/110 - 222250/7282 - LSX 47;75.0
+397;LTSPAL3F322ACA2;Palma 3 Seater_F322;Xuất bán T01/111 - 222250/7326 LSX 63;90.0
+398;LTSPALCF274ACK1;Palma Corner_F274;Xuất bán T01/110 - 222250/7282 - LSX 47;75.0
+399;LTSPALCF322ACA1;Palma Corner_F322;Xuất bán T01/111 - 222250/7326 LSX 63;90.0
+400;LTSSAG1H274APA1;Sageby Dining Set_Armchair_H274;Xuất bán T04/97 - 10112016SA - LSX 85;23.75
+401;LTSSAN1H085S1WI;SanDiego 1 Seater_H085_DAN;Xuất bán T01/080 - LT18016COFA-  LSX 68;87.0
+402;LTSSAN3H085SCA1;SanDiego 3 Seater_H085;Xuất bán T01/080 - LT18016COFA-  LSX 68;170.0
+403;LTSSECLJH01SCA1;Sectional Set_Left Chair_JH01;Xuất bán T03/159 - 2832 - LSX 81;63.0
+404;LTSSECRJH01SCA1;Sectional Set_Right Chair_JH01;Xuất bán T03/159 - 2832 - LSX 81;63.0
+405;LTSSHOU2H270AK1;Southampton  sofa 2 seater_H270;Xuất bán T9/033- 007- ngày ETD 24/9/2016 -LSX 19;70.0
+406;LTSSHOU3H270AK1;Southampton  sofa 3 seater_H270;Xuất bán T9/033- 007- ngày ETD 24/9/2016 -LSX 19;80.0
+407;LTSSOU1H270AK1;Southampton corner sofa_H270;Xuất bán T9/033- 007- ngày ETD 24/9/2016 -LSX 19;60.0
+408;LTSTAH1F009SK1;Tahiti Sofa set_F009;Xuất bán T05/27-LT6916COFA-1 ngày ETD 18/5/2016;326.53000000000003
+409;LTSTAH1F009SK2;Tahiti Dining Set_F009;Xuất bán T05/29-LT6916COFA-3 ngày ETD 18/5/2016;373.45
+410;LTSTAH3F009SKA1;Tahiti Sofa 3 Seater_F009;Xuất bán T01/079 - LT18016COFA-  LSX 68;190.0
+411;LTSVICAF342SCA1;Victoria Loungeset_F342;Xuất bán T01/086 - LTINV27184 - LSX 78;138.7
+412;LTTALB1F310SCK1;Albi Table_F310;Xuất bán T01/094  - HEINSTAD -STADTHAGEN2 - LSX 42 ;40.0
+413;LTTANG1F253SC1;ANGEBOT GARDEN TABLE F253;Xuất bán T01/068 - LTINV58143146-2 - LSX 55;46.0
+414;LTTARH1F210SC1;Arhus Sunlounger (k/d) table_F210;Xuất bán T05/30-LT-JOHANRO29012016  ngày ETD 15/5/2016;44.5
+415;LTTARSTF253ACA1;ARS Table_F253;Xuất bán T11/078 - LTINV235375-1- lsx 60;26.0
+416;LTTARSTF332ACA1;Arsenal Table Sofa_F332;Xuất bán T10/019 - 15062016  - LSX 48;67.0
+417;LTTBAL1F310SC1;Balkon Table_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;42.0
+418;LTTBAL1F401SC1;Balkon Table_F401;Xuất bán T01/067 - LTINV58143146-2 - LSX 55;42.0
+419;LTTBORTF403SCA1;Bork Set_Table_F403;Xuất bán T03/159 - 2832 - LSX 81;49.9
+420;LTTCER1F263SK1;Cerdena Coffee Table_F263;Xuất bán T03/117 -LT2917CLFA - LSX 84;76.89999999999999
+421;LTTCERCF264SCA1;Cerdena Coffee Table_F264;Xuất bán T01/046 - LT0417CLFA - LSX 66;42.11
+422;LTTCERCF264SCK2;Cerdena Dining Table_F264;Xuất bán T05/09-LT3616CLFA-2  ngày ETD 8/5/2016;90.0
+423;LTTCHE1H224AK1;Chelsea coffee table sofa_H224;Xuất bán T03/0105 - 006 - lLSX 19;102.5
+424;LTTCOLOTA03SCA1;Colombia Set_Table_H87;Xuất bán T01/069 - LTINV58143146-2 - LSX 55;100.0
+425;LTTCOR1F268AK1;Corner sofa set(158085  Table)_F268;Xuất bán T01/023-JETTENBURG - LSX 42;69.4
+426;LTTCORV1160ACA1;Corner Sofa Set_Table_F1160;Xuất T02/053-LACASAWAREHOUSE 4 (148058, 155560, 158090, 158103)- LSX 42;86.75
+427;LTTCORVH374SCA1;Corner Sofa Set_Table_H374;Xuất bán T01/122 - DYKEI - LSX 38;55.0
+428;LTTCUI1F310SCA1;Table Cuise Set_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;40.0
+429;LTTDARCF310SCA1;Darwin Table_F310;Xuất bán T02/097 - LTINV26942 - LSX 73;9.6
+430;LTTDIN11160ACK1;Dinning Sofa Set_Table_F1160;Xuất T02/053-LACASAWAREHOUSE 3 (169872, 158103)-LSX 42;79.76
+431;LTTDYLVH224ACA1;Dylano Lounge set (Roma Bàn)_H224;Xuất bán T02/076-019- LSX 46;77.0
+432;LTTDYV1F401SAC1;DYVIG TABLE_F401;Xuất bán T10/028 - LT14416DHTG- LSX 51;50.0
+433;LTTERO1H275ACA1;Erope Table_H275;Xuất bán T01/080 - LT18016COFA-  LSX 68;26.9
+434;LTTETHTF403SCA1;Ethan Couch Set With Table_Table_F403;Xuất bán T03/159 - 2832 - LSX 81;81.25
+435;LTTEUR1F275AK1;Europe Rocking Table_F275;Xuất bán T05/32-LT8016COFA-2  ngày ETD 18/5/2016;26.900000000000002
+436;LTTFLOL1F243AK1;Florida table_F243;Xuất T02/056-265- LSX 19;70.0
+437;LTTFOL1F268ST1;Folding Table_F268;Xuất bán T01/129 - HEINSTAD, BRAFREI, OSTWIT1 - LSX 42;22.0
+438;LTTFOL1F310ST1;Folding Table_F310;Xuất bán T01/094  - HEINSTAD -STADTHAGEN2 - LSX 42 ;22.0
+439;LTTGARH374SK1;Gartengarnitur Table_H374;Xuất bán T09/17 - 00IRC -LSX2016/ 36;63.32
+440;LTTIDS1F310S1WI01;Idskov Lounge Set_Table_F310_DAN;Xuất bán T03/096 - LTINV3841 - LSX 52;40.67
+441;LTTJAP1F253SC1;Japan Sofa Table_F253;Xuất bán T9/069 - 08062016-1- LSX 43;42.5
+442;LTTJAP1F268SC1;Japan Sofa Table_F268;Xuất T02/053-LACASAWAREHOUSE 3 (169872, 158103)-LSX 42;40.75
+443;LTTKAL1F330SK1;Kalimantan Coffee Table_F330;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;64.0
+444;LTTNATCF332SCA1;Natsu Table_F332;Xuất bán T10/019 - 15062016  - LSX 48;17.5
+445;LTTNELVH265ACA1;Nelson Lounge set(Roma ban)_H265;Xuất bán T01/078 - 044 - lsx 58;77.0
+446;LTTNEW1F310SCA1;Idskov Lounge Set_Table_F310;Xuất bán T01/016 - LTINV3667- lsx 52;20.630000000000003
+447;LTTNEWCF253S1WI;New Bork Set_Table_F253_DAN;Xuất bán T04/31 -BOR11072016 - LSX 45;30.0
+448;LTTNEWCF310SCA1;New bork loungeset_Table_F310;Xuất bán T01/104 - 250228 - lsx 59;26.0
+449;LTTOBA1H270SK1;Obama Table_H270;Xuất T02/052-247- LSX 19;55.0
+450;LTTOCC1F310SCA1;Table Occasional Set_F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;49.0
+451;LTTODDTF253SCK1;ODDA Table_F253;Xuất bán T11/078 - LTINV235375-1- lsx 60;79.0
+452;LTTPAL1F170SK1;Palermo Coffee Table K/d_F170 (Sofa);Xuất bán T03/31 - LT1817CLFA LSX 79;110.85999999999999
+453;LTTPAL1F170SK2;Palermo Side Table_F170;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;36.2
+454;LTTPALCF170SCK1;Palermo Dining Table_F170;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;127.45
+455;LTTPALCF274ACK1;Palma Table_F274;Xuất bán T01/110 - 222250/7282 - LSX 47;154.27
+456;LTTPALCF322ACK1;Palma Table_F322;Xuất bán T01/111 - 222250/7326 LSX 63;90.0
+457;LTTPALVF170SCK1;Palermo Coffee Table K/D_F170;Xuất bán T03/114 -LT1917CLFA - LSX 79;110.86000000000001
+458;LTTREC1F268SC1;Rect Table_F268;Xuất bán T01/022-SPIGROB-GROBWALLSTADT - LSX 42;74.0
+459;LTTREC1F310SC1;Rect Table_F310;Xuất bán T01/098  - LT-NO/1000260-1000261-1000262 - LSX 44 ;82.80000000000001
+460;LTTREC1H274SCA1;Rect Table_H274;"Xuất bán T12/040 - 222250/7280 ; 222250/7282 LSX 47";120.28
+461;LTTRECTF343ACK1;Rect Table_F343;Xuất bán T01/067 - LTINV58143146-2 - LSX 55;103.0
+462;LTTROU1F310SC1;LT-ME41 (Round table)_F310;Xuất bán T12/027 -065-1 - LSX 49;80.0
+463;LTTROUTF343S1WI;LT-ME41 ( Round table )_F343;Xuất bán T03/0103 - 040 - lsx 49;80.0
+464;LTTSAB1H274SC;Sabegy Table(Oval Table)_H274;Xuất bán T05/17-LTINV5894  ngày ETD 12/5/2016;105.0
+465;LTTSAGCH274ACK1;Sageby Dining Set_Table_H274;Xuất bán T04/97 - 10112016SA - LSX 85;142.5
+466;LTTSAN1H085SC1;SanDiego Small Coffee Table_H085;Xuất bán T01/080 - LT18016COFA-  LSX 68;47.83
+467;LTTSAN1H085SC2;Sandiego large coffee table_H085;Xuất bán T03/118 -LT2917CLFA - LSX 84;101.10000000000001
+468;LTTSAR1MIX3SK1;Sara Table 3 Mau_MIX;Xuất tặng khách hàng theo phiếu yêu cầu xuất xưởng ngày 16.3.2017 ;0.0
+469;LTTSAR1R144SK1;Sara Table KD in Green_R144;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;15.2
+470;LTTSARTR146SCK1;Sara Table KD in Yellow_R146;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;15.2
+471;LTTSARTR147SCK1;Sara Table KD in Red_R147;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;15.2
+472;LTTSARTR149SCK1;Sara Table KD in Black_R149;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;15.2
+473;LTTSARTR150SCK1;Sara Table KD in Blue_R150;Xuất bán T06/26 - LT9516CLFA  ngày ETD 26/6/2016;15.2
+474;LTTSARTR157SCA1;Sara Table in White_R157;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;15.2
+475;LTTSARTR175SCK1;Sara Table KD in Dark Blue_R175;Xuất bán T06/012-LT7016PEFA-5 ngày ETD 9/6/2016;15.2
+476;LTTSEC1F310SCA1;Sectional Set_Table _F310;Xuất bán T10/028 - LT14416DHTG- LSX 51;70.0
+477;LTTSECTJH01SCA1;Sectional Set_Table_FJ01;Xuất bán T03/159 - 2832 - LSX 81;63.0
+478;LTTSOU1H270AK1;Southampton coffee table_H270;Xuất bán T9/033- 007- ngày ETD 24/9/2016 -LSX 19;200.0
+479;LTTSQU1F268SC1;Square Table_F268;Xuất bán T01/022-SPIGROB-GROBWALLSTADT - LSX 42;48.0
+480;LTTSQU1F310SC1;Square Table_F310;Xuất bán T01/098  - LT-NO/1000260-1000261-1000262 - LSX 44 ;60.22
+481;LTTSTO1F322AE1;Stool Chair_F322;Xuất T02/04 -22250/7326- LSX 63;38.0
+482;LTTTAH1F009SK2;Tahiti Dining Table_F009;Xuất bán T01/080 - LT18016COFA-  LSX 68;173.45
+483;LTTTAHCF009SKA1;Tahiti Coffe Table_F009;Xuất bán T01/079 - LT18016COFA-  LSX 68;68.53
+484;LTTTHE1H224AC1;Thessaly Table_H224;Xuất bán T10/050- 004 -  LSX 19;85.0
+485;LTTTOM1F332ACA1;Tom Dining Table_F332;Xuất bán T10/019 - 15062016  - LSX 48;78.0
+486;LTTTON1H279AC1;Tona Dining Table_H279;Xuất bán T03/142 - 10112016TN- LSX 85;37.8
+487;LTTVIE1F310SC1;Vieste Table_F310;Xuất bán T01/001 - 075-1 - LSX 49;62.0
+488;LTTVIE1F343SC1;Vieste Table_F343;Xuất bán T01/001 - 075-1 - LSX 49;62.0
+489;LTTWICTF310SC1;Wicky Table_F310;Xuất bán T01/043 - 069 - lsx 49;47.0
+490;PKKHA028005;Khoen nhôm Anode f28x0.8x27 (bo 2 đầu);Xuất bán T03/151 - LTINV3890 - LSX 54 ;0.0
+491;VTGLR111001;Kính trong 360x1110x5mm;Xuất mẫu đi test lần 2 theo phiếu yêu cầu xuất xưởng ngày 12/9/2016\;0.0
+492;VTGLS049001;Kính cường lực 5ly Ø490x5;Xuất tặng (khách hàng OBI) Chị Thanh - theo phiếu yêu cầu xuất xưởng 16/3/2017 ;0.0
+493;VTNUR022001;Nút Đế Nhựa f22 ;Xuất bán T03/151 - LTINV3890 - LSX 54 ;0.0
+494;VTNUT027002;Nút nhựa f27.6 (bali);Xuất bán T04/141 - 26982/2131201 - LSX 73;0.0
+495;VTNUT030001;Nút hít kính f30x5 (mm) ;Xuất bán T03/151 - LTINV3890 - LSX 54 ;0.0

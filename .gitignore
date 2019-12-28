@@ -210,7 +210,6 @@ dmypy.json
 .pyre/
 
 .idea/
-data/
 *_aa.ipynb
 *_ab.ipynb
 *_ac.ipynb
