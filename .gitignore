@@ -214,4 +214,6 @@ dmypy.json
 *_ab.ipynb
 *_ac.ipynb
 
+db.sqlite3
+
 # End of https://www.gitignore.io/api/python,pycharm
