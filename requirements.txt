@@ -31,3 +31,4 @@ implicit==0.4.0
 numpy==1.17.2
 pandas==0.25.1
 google_images_download==2.8.0
+jupyter
