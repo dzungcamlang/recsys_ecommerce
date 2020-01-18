@@ -12,7 +12,11 @@
     <div class="container">
       <div class="row" style="padding: 4em 0 0;">
             <div class="col-md-6 product-detail-img">
-                <img src="{{ object.image.url }}" alt="">
+                {% if object.image.is_exists %}
+                   <img src="{{ object.image.url }}" alt="">
+                {% else %}
+                   <img src="/media/noimage.png" alt="">
+                {% endif %}
             </div>
             <div class="col-md-6 product-detail-description">
                 <div class="">
@@ -65,7 +69,11 @@
                       <div class="product-sale">SALE</div>
                       <div class="product-sale">{{ item.discount_price }}%</div>
                     {% endif %}
-                    <img src="{{ item.image.url }}" alt="">
+                    {% if object.image.is_exists %}
+                       <img src="{{ item.image.url }}" alt="">
+                    {% else %}
+                       <img src="/media/noimage.png" alt="">
+                    {% endif %}
                   </div>
                   <div class="product-text">
                     <div class="product-title line-clamp-2">{{ item.title }}</div>

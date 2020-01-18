@@ -51,7 +51,11 @@
                                   <div class="product-sale">SALE</div>
                                   <div class="product-sale">{{ item.discount_price }}%</div>
                                 {% endif %}
-                                <img src="{{ item.image.url }}" alt="">
+                                {% if item.image.is_exists %}
+                                   <img src="{{ item.image.url }}" alt="">
+                                {% else %}
+                                   <img src="/media/noimage.png" alt="">
+                                {% endif %}
                               </div>
                               <div class="product-text">
                                 <div class="product-title line-clamp-2">{{ item.title }}</div>
@@ -90,7 +94,12 @@
                             {% comment %} <img
                                 src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg"
                                 class="card-img-top"> {% endcomment %}
-                            <img src="{{ item.image.url }}" class="card-img-top">
+                            {% if item.image.is_exists %}
+                               <img src="{{ item.image.url }}" class="card-img-top">
+                            {% else %}
+                               <img src="/media/noimage.png" class="card-img-top">
+                            {% endif %}
+
                             <a href="{{ item.get_absolute_url }}">
                                 <div class="mask rgba-white-slight"></div>
                             </a>
